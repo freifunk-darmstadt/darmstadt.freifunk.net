@@ -40,7 +40,7 @@ Dein Router sollte nun in den Konfigurationsmodus starten. Du erhälst erneut IP
 
 Danach startet der Router neu, sendet das WLAN `darmstadt.freifunk.net` aus und versucht sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald der Schlüssel auf den Gateways eingetragen wurde. Darüber informieren wir dich zeitnah mit einer Begrüßungs-Email.
 
-Der Router ist jetzt im Normalbetrieb und nicht mehr unter der [http://192.168.1.1](http://192.168.1.1) erreichbar, für weitere Änderungen siehe [FAQ](/mitmachen/faq/).
+Der Router ist jetzt im Normalbetrieb und nicht mehr unter der [http://192.168.1.1](http://192.168.1.1) erreichbar, für weitere Änderungen siehe [FAQ](/wie-freifunk-funktioniert/faq/).
 
 ### Den Router aufstellen
 Als Standort empfehlen sich Fenster, Balkone oder Dächer. Je näher er der Außenwelt ist, desto wahrscheinlicher ist es, dass er für Passanten erreichbar ist und sich mit anderen Routern verbindet um eine [Meshverbindung](https://de.wikipedia.org/wiki/Vermaschtes_Netz) zu bilden.

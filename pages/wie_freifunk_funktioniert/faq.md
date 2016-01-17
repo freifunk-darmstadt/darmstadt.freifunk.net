@@ -2,9 +2,9 @@
 title: Häufige Fragen
 layout: page
 sub_menu: true
-top_url: /mitmachen/
+top_url: /wie-freifunk-funktioniert/
 sub_weight: 6
-permalink: /mitmachen/faq/
+permalink: /wie-freifunk-funktioniert/faq/
 ---
 
 ### Wo stehen schon Freifunk-Router?
