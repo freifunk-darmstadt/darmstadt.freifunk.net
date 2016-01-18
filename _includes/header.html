@@ -6,7 +6,7 @@
         {% for p in nav_pages %}
           {% if p.title %}
 					<li>
-						<a class="page-link{% if p.top_url == page.top_url %} active{% endif %}" href="{{ p.top_url | prepend: site.baseurl }}">
+						<a class="page-link{% if p.top_url == page.top_url %} active{% endif %}" href="{% if p.menu_link_url %}{{ p.menu_link_url }}{% else %}{{ p.top_url | prepend: site.baseurl }}{% endif %}">
 							{{ p.title }}
 						</a>
 						{% if p.sub_menu %}
