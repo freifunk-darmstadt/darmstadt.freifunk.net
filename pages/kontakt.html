@@ -13,6 +13,7 @@ layout:
   {% include head.html %}
   <script src="{{ "/js/eyecandy.js" | prepend: site.baseurl }}"></script>
   <script src="{{ "/js/TweenMax.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/moment-with-locales.min.js" | prepend: site.baseurl }}"></script>
 
   <!-- map foo -->
   <link rel="stylesheet" href="{{ "/css/leaflet.css" | prepend: site.baseurl }}"/>
@@ -40,21 +41,34 @@ layout:
 
   <p style="text-align:center">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es persönlich bei einem unserer Treffen oder über das Internet.</p>
 
-  <div class="box" id="treffen">
-    <h3>Treffen</h3>
-    <div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
-    <p>Wir treffen uns jede Woche montags im Hackspace des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelm-Leuschner-Straße 36. Im Hinterhof angekommen, befindet sich der Eingang am Ende der Metalltreppe.</p>
-    <p>Wenn Du neu bei Freifunk bist, bereits einen Router einrichten möchtest oder einfach nur mehr über das Projekt erfahren willst, komm' einfach zu einem persönlichen Gespräch um <strong>18:30 Uhr</strong> vorbei. Wir freuen uns auf deinen Besuch!</p>
+  <div class="row">
+    <div class="8u 12u(3)">
+      <div class="box" id="treffen">
+        <h3>Treffen</h3>
+        <p>Wir treffen uns jede Woche montags im Hackspace des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelm-Leuschner-Straße 36. Im Hinterhof angekommen, befindet sich der Eingang am Ende der Metalltreppe.</p>
+        <p>Wenn Du neu bei Freifunk bist, bereits einen Router einrichten möchtest oder einfach nur mehr über das Projekt erfahren willst, komm' einfach zu einem persönlichen Gespräch um <strong>18:30 Uhr</strong> vorbei. Wir freuen uns auf deinen Besuch!</p>
 
-    <p>Immer am 1. und 3. Montag jedes Monats um <strong>19:30 Uhr</strong> findet unser Plenum statt, in dem wir aktuelle Entwicklungen diskutieren und unser weiteres Vorgehen koordinieren.
+        <p>Immer am 1. und 3. Montag jedes Monats um <strong>19:30 Uhr</strong> findet unser Plenum statt, in dem wir aktuelle Entwicklungen diskutieren und unser weiteres Vorgehen koordinieren.
 
-    <h4>Anfahrt</h4>
-    <ul>
-      <li><strong>ÖPNV:</strong> Haltestellen Kahlertstraße, Willy-Brandt-Platz und Pallaswiesenstraße. Verbindungsauskunft auf der Seite des <a href="http://www.rmv.de/">RMV</a>.</li>
-      <li><strong>PKW:</strong> Aufgrund der angespannten Parkplatzsituation im Johannesviertel empfehlen wir das Auto in einem <a href="http://www.parkopedia.de/parken/darmstadt/">Parkhaus</a> abzustellen.</li>
-    </ul>
-    <p>Fahrräder können im Innenhof abgestellt werden.</p>
+        <h4>Anfahrt</h4>
+        <ul>
+          <li><strong>ÖPNV:</strong> Haltestellen Kahlertstraße, Willy-Brandt-Platz und Pallaswiesenstraße. Verbindungsauskunft auf der Seite des <a href="http://www.rmv.de/">RMV</a>.</li>
+          <li><strong>PKW:</strong> Aufgrund der angespannten Parkplatzsituation im Johannesviertel empfehlen wir das Auto in einem <a href="http://www.parkopedia.de/parken/darmstadt/">Parkhaus</a> abzustellen.</li>
+        </ul>
+        <p>Fahrräder können im Innenhof abgestellt werden.</p>
+      </div>
+    </div>
+
+    <div class="4u 12u(3)">
+      <div class="box">
+        <h3>Nächstes Treffen</h3>
+        <p>Unser nächstes Treffen findet am <strong><span id="next_meet_date">n&auml;chsten Montag</span></strong> um <strong>18:30</strong> Uhr statt.</p>
+      </div>
+
+      <div id="map" class="box" style="height: 40em;"></div>
+    </div>
   </div>
+
   <div class="box">
     <h3>Kontaktdaten</h3>
     <p>Wenn es dir nicht möglich ist uns zu besuchen, dann gibt es natürlich noch alternative Kontaktwege:</p>
@@ -69,6 +83,17 @@ layout:
     </ul>
   </div>
   </section>
+
+  <script>
+      moment.locale('de');
+      var nextDate;
+      if (moment().isSame(moment().weekday(0), 'day'))
+          nextDate = moment().weekday(0);
+      else
+          nextDate = moment().weekday(7);
+
+      $('#next_meet_date').text(nextDate.format('D. MMMM'));
+  </script>
 
   {% include footer.html %}
 </body>

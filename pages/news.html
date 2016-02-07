@@ -12,7 +12,6 @@ top_url: /news/
 <head>
   {% include head.html %}
   <script src="/js/netstate.min.js"></script>
-  <script src="/js/moment-with-locales.min.js"></script>
 </head>
 <body onload="netstate_init()">
   {% include header.html %}
@@ -47,14 +46,10 @@ top_url: /news/
     </div>
     <div class="4u 12u(3)">
       <div class="box">
-        <h3>Nächstes Treffen</h3>
-        <p><span id="next_meet_date">N&auml;chsten Montag</span> um 19:00 Uhr im <a href="/kontakt/">Chaos Darmstadt</a>.</p>
-      </div>
-      <div class="box">
         <h3>Statistik</h3>
         <p id="net_state_loading"><span class="fa fa-refresh fa-spin"></span> Lade Statusdaten</p>
         <ul>
-          <li><a href="/karte/">Karte</a>: <span id="net_state_nodes">...</span></li>
+          <li><a href="/karte/">Freifunk-Knoten</a>: <span id="net_state_nodes">...</span></li>
           <li>Endgeräte: <span id="net_state_clients">...</span></li>
           <li>Traffic: <span id="net_state_traffic">...</span></li>
         </ul>
@@ -90,16 +85,5 @@ top_url: /news/
   </section>
 
   {% include footer.html %}
-
-  <script>
-      moment.locale('de');
-      var nextDate;
-      if (moment().isSame(moment().weekday(0), 'day'))
-          nextDate = moment().weekday(0);
-      else
-          nextDate = moment().weekday(7);
-
-      $('#next_meet_date').text(nextDate.format('D. MMMM'));
-  </script>
 </body>
 </html>
