@@ -9,50 +9,67 @@ layout:
 
 <!DOCTYPE html>
 <html>
-  {% include head-kontakt-map.html %}
+<head>
+  {% include head.html %}
+  <script src="{{ "/js/eyecandy.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/TweenMax.min.js" | prepend: site.baseurl }}"></script>
 
-  <body onLoad="mapinit();">
-    {% include header.html %}
-    <section id="main" class="container">
-		<header>
-			<h2 class="post-title">{{ page.title }}</h2>
-		</header>
+  <!-- map foo -->
+  <link rel="stylesheet" href="{{ "/css/leaflet.css" | prepend: site.baseurl }}"/>
+  <script src="{{ "/js/leaflet.js" | prepend: site.baseurl }}"></script>
+  <script>
+    function mapinit() {
+      var map = L.map('map').setView([49.87921245300291, 8.645183444023132], 14);
+      L.Icon.Default.imagePath = '../images';
 
-		<p style="text-align:center">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es persönlich bei einem unserer Treffen oder über das Internet.</p>
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+      }).addTo(map);
 
-		<div class="box" id="treffen">
-			<h3>Treffen</h3>
-			<div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
-			<p>Wir treffen uns jede Woche montags im Hackspace des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelm-Leuschner-Straße 36. Im Hinterhof angekommen, befindet sich der Eingang am Ende der Metalltreppe.</p>
-			<p>Wenn Du neu bei Freifunk bist, bereits einen Router einrichten möchtest oder einfach nur mehr über das Projekt erfahren willst, komm' einfach zu einem persönlichen Gespräch um <strong>18:30 Uhr</strong> vorbei. Wir freuen uns auf deinen Besuch!</p>
+      L.marker([49.87921245300291, 8.645183444023132]).addTo(map);
+    }
+  </script>
+</head>
 
-			<p>Immer am 1. und 3. Montag jedes Monats um <strong>19:30 Uhr</strong> findet unser Plenum statt, in dem wir aktuelle Entwicklungen diskutieren und unser weiteres Vorgehen koordinieren.
+<body onLoad="mapinit();">
+  {% include header.html %}
+  <section id="main" class="container">
+  <header>
+    <h2 class="post-title">{{ page.title }}</h2>
+  </header>
 
-			<h4>Anfahrt</h4>
-			<ul>
-				<li><strong>ÖPNV:</strong> Haltestellen Kahlertstraße, Willy-Brandt-Platz und Pallaswiesenstraße. Verbindungsauskunft auf der Seite des <a href="http://www.rmv.de/">RMV</a>.</li>
-				<li><strong>PKW:</strong> Aufgrund der angespannten Parkplatzsituation im Johannesviertel empfehlen wir das Auto in einem <a href="http://www.parkopedia.de/parken/darmstadt/">Parkhaus</a> abzustellen.</li>
-			</ul>
-			<p>Fahrräder können im Innenhof abgestellt werden.</p>
-		</div>
-		<div class="box">
-			<h3>Kontaktdaten</h3>
-			<p>Wenn es dir nicht möglich ist uns zu besuchen, dann gibt es natürlich noch alternative Kontaktwege:</p>
-			<ul>
-				<li><a href="mailto:{{site.email}}">Email ({{site.email}})</a></li>
-				<li><a href="http://www.twitter.com/{{site.twitter_username}}">Twitter (@{{site.twitter_username}})</a></li>
-				<li><a href="http://www.facebook.com/freifunkDA">Facebook</a></li>
-				<li><a href="https://plus.google.com/113942916935529162777/">Google+</a></li>
-				<li><a href="http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net">Mailing-Liste</a></li>
-				<li><a href="https://chat.darmstadt.freifunk.net">Chat</a> (oder mit IRC-Client <a href="irc://irc.hackint.eu/ffda">irc://irc.hackint.eu/ffda</a>)</li>
-				<li>Anrufbeantworter: <a href="tel:+49-6151-6294552">06151 / 6294552</a></li>
+  <p style="text-align:center">Wir freuen uns, wenn du Kontakt mit uns aufnimmst, sei es persönlich bei einem unserer Treffen oder über das Internet.</p>
 
+  <div class="box" id="treffen">
+    <h3>Treffen</h3>
+    <div id="map" style="height: 30em; margin: 1em 0; width: 45%; float: right; margin-left: 2em"></div>
+    <p>Wir treffen uns jede Woche montags im Hackspace des <a href="https://chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelm-Leuschner-Straße 36. Im Hinterhof angekommen, befindet sich der Eingang am Ende der Metalltreppe.</p>
+    <p>Wenn Du neu bei Freifunk bist, bereits einen Router einrichten möchtest oder einfach nur mehr über das Projekt erfahren willst, komm' einfach zu einem persönlichen Gespräch um <strong>18:30 Uhr</strong> vorbei. Wir freuen uns auf deinen Besuch!</p>
 
-			</ul>
-		</div>
-    </section>
+    <p>Immer am 1. und 3. Montag jedes Monats um <strong>19:30 Uhr</strong> findet unser Plenum statt, in dem wir aktuelle Entwicklungen diskutieren und unser weiteres Vorgehen koordinieren.
 
-    {% include footer.html %}
+    <h4>Anfahrt</h4>
+    <ul>
+      <li><strong>ÖPNV:</strong> Haltestellen Kahlertstraße, Willy-Brandt-Platz und Pallaswiesenstraße. Verbindungsauskunft auf der Seite des <a href="http://www.rmv.de/">RMV</a>.</li>
+      <li><strong>PKW:</strong> Aufgrund der angespannten Parkplatzsituation im Johannesviertel empfehlen wir das Auto in einem <a href="http://www.parkopedia.de/parken/darmstadt/">Parkhaus</a> abzustellen.</li>
+    </ul>
+    <p>Fahrräder können im Innenhof abgestellt werden.</p>
+  </div>
+  <div class="box">
+    <h3>Kontaktdaten</h3>
+    <p>Wenn es dir nicht möglich ist uns zu besuchen, dann gibt es natürlich noch alternative Kontaktwege:</p>
+    <ul>
+      <li><a href="mailto:{{site.email}}">Email ({{site.email}})</a></li>
+      <li><a href="http://www.twitter.com/{{site.twitter_username}}">Twitter (@{{site.twitter_username}})</a></li>
+      <li><a href="http://www.facebook.com/freifunkDA">Facebook</a></li>
+      <li><a href="https://plus.google.com/113942916935529162777/">Google+</a></li>
+      <li><a href="http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net">Mailing-Liste</a></li>
+      <li><a href="https://chat.darmstadt.freifunk.net">Chat</a> (oder mit IRC-Client <a href="irc://irc.hackint.eu/ffda">irc://irc.hackint.eu/ffda</a>)</li>
+      <li>Anrufbeantworter: <a href="tel:+49-6151-6294552">06151 / 6294552</a></li>
+    </ul>
+  </div>
+  </section>
 
-  </body>
+  {% include footer.html %}
+</body>
 </html>
