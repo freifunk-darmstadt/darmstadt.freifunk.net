@@ -22,7 +22,7 @@ Für folgendes ist gesorgt:
 - Retro-Spiele
 - Freifunk
 
-mit Dir wird der Abend komplet!
+mit Dir wird der Abend komplett!
 
 
 Weitere Infos findest du auf der Seite der [Ottinger Villa](http://www.oetingervilla.de/programm/2806/1k300-lounge/).
