@@ -5,7 +5,7 @@ date: 2016-02-15 14:00:00
 categories: community
 ---
 
-[<img src="{{ "/images/posts/2015-02-15-poster.jpg" | prepend: site.baseurl }}" class="image right" style="width: 45%">]({{ "/images/posts/2015-02-15-poster.jpg" | prepend: site.baseurl }})
+[<img src="{{ "/images/posts/2015-02-15-poster.jpg" | prepend: site.baseurl }}" alt="Werbeplakat für die Veranstaltung. Eintriff frei!" class="image right" style="width: 45%">]({{ "/images/posts/2015-02-15-poster.jpg" | prepend: site.baseurl }})
 
 Anlässlich des zweijährigen Bestehens von Freifunk in Darmstadt laden wir, unter dem Namen &bdquo;Freifunk 1k300 Lounge&ldquo; zu einem Abend rund um Freifunk ein. Das offene WLAN-Netz &bdquo;darmstadt.freifunk.net&ldquo; wird durch die Mithilfe von mittlerweile über 300 freiwilligen Knotenbetreibern an immer mehr Orten in und um Darmstadt herum verfügbar und bringt täglich über tausend Nutzer ins Internet. Du möchtest erfahren wie ein solches Netzwerk entsteht, funktioniert oder wie du dich selbst mit Hilfe eines eigenen Freifunk-Knotens am Netz beteiligen kannst? Komm vorbei und lass uns bei einem Drink über Freifunk reden!
 <br/>
