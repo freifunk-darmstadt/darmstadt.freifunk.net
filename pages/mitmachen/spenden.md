@@ -74,10 +74,10 @@ Das Spenden ist am einfachsten über unseren Partner [betterplace.org](https://w
 Alternativ kann auch direkt an das Bankkonto des Chaos Darmstadt e.V. überwiesen werden:
 
 <blockquote>
-	Chaos Darmstadt e.V. <br/>
-	Bank: Sparkasse Darmstadt <br/>
-	IBAN: DE96 5085 0150 0000 7118 53 <br/>
-	BIC: HELADEF1DAS <br/>
+  Chaos Darmstadt e.V.<br/>
+  IBAN: DE47 5089 0000 0064 3445 01<br/>
+  BIC: GENODEF1VBD<br/>
+  Volksbank Darmstadt - Südhessen eG
 </blockquote>
 
 Für Spenden muss hierbei im *Verwendungszweck "Freifunk Darmstadt"* vermerkt sein. Auf Anfrage stellt der Vorstand zum Ende eines Geschäftsjahres Zuwendungsbescheinigungen aus.
@@ -88,4 +88,3 @@ Unsere Internetanbindung erhalten wird dankenswerterweise vom Freifunk Rheinland
 
 
 *Vielen Dank für die Unterstützung!*
-
