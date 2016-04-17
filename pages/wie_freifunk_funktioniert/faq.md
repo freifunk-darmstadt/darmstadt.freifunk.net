@@ -13,7 +13,7 @@ Schau mal auf der [Karte](../../karte/) nach. Wenn es bei dir noch keinen Freifu
 
 ### Warum ist das alles kostenlos? Wo ist der Haken?
 
-Freifunk ist eine gemeinschaftliche Bewegung, die einen freien Netzzugang als gesellschaftlichen Grundstein sieht. Wir möchten zudem den derzeitigen rechtlichen (Störerhaftung) sowie datenschutzrechtlichen (Kundendaten sammeln) Problematiken aus dem Weg gehen. Die Infrastruktur wird ausschließlich über Spenden finanziert.
+Freifunk ist eine gemeinschaftliche Bewegung, die einen freien Netzzugang als gesellschaftlichen Grundstein sieht. Wir verfolgen kein kommerzielles Interesse und betreiben das Netz ehrenamtlich. Unser Ziel ist es, eine für jeden gleichberechtigt nutzbare Infrastruktur aufzubauen und dabei den derzeitigen rechtlichen (WLAN-Störerhaftung) sowie datenschutzrechtlichen (Kundendaten sammeln) Problematiken aus dem Weg zu gehen. Unsere Infrastruktur wird ausschließlich über Spenden finanziert.
 
 ### Benötige ich einen Router für 2,4 GHz oder 5 GHz?
 
@@ -23,18 +23,18 @@ Beachte: Damit sich ein Freifunk-Router mit einem anderen Freifunk-Router über 
 
 ### Können mehrere Freifunk-Router an einem Ort miteinander verbunden werden?
 
-Mehrere Freifunk-Router können sowohl über Funk meshen, als auch über den WAN-Port. Hierzu gibt es die Mesh-on-WAN-Funktion, welche sich in den Experteneinstellungen aktivieren lässt. Natürlich können die Router auch völlig unabhängig voneinander eine Verbindung zum Rest der Freifunk-Wolke herstellen.
+Mehrere Freifunk-Router können sowohl über Funk meshen, als auch per Kabel über den WAN-Port. Hierzu gibt es die Mesh-on-WAN-Funktion, welche sich in den Experteneinstellungen aktivieren lässt. Natürlich können die Router auch völlig unabhängig voneinander eine Verbindung zum Rest der Freifunk-Wolke herstellen.
 
-### Kann ich den Freifunk-Router auch über ein existierendes privates WLAN anbinden?
+### Kann ich den Freifunk-Router auch drahtlos über ein existierendes privates WLAN anbinden?
 
 Dies ist aus verschiedenen Gründen mit der Standard-Freifunk-Firmware nicht möglich:
 
  - Das im Router verbaute WLAN-Modul kann meist nur auf einer Frequenz gleichzeitig funken. Somit wäre allein technisch eine Verbindung nur dann möglich, wenn das Uplink-WLAN auf der gleichen Frequenz wie Freifunk sendet.
- - In diesem Fall würde die "Airtime" (also die Zeit, die der Funkkanal belastet wird) doppelt beansprucht, zum Senden im Freifunk-Netz und zum Weiterreichen ins Uplink-WLAN.
+ - In diesem Fall würde die "Airtime" (also die Zeit, die der Funkkanal aktiv genutzt wird) doppelt beansprucht, zum Senden im Freifunk-Netz und zum Weiterreichen ins Uplink-WLAN.
  - Zwei WLAN-Radios an einem Freifunkrouter könnten einen Uplink theoretisch auch auf einem anderen Kanal ermöglichen, dies erfordert jedoch manuelle Konfiguration, welche bei aktivem Autoupdater kaputt gehen könnte.
- - Ein USB-WLAN-Stick, welcher das 2. Radio bereitstellen könnte, kostet auch ~15€, ungefähr so viel wie schon ein kleiner vollständiger Freifunk-Router (TP-Link WR841N).
+ - Ein USB-WLAN-Stick, welcher das 2. Radio bereitstellen könnte, kostet auch ~15€, ungefähr so viel wie schon ein kleiner vollständiger Freifunk-Router.
 
-Unsere Empfehlung wäre daher, einen Freifunk-Router an der Quelle hinzustellen (dort, wo es ein Netzwerkkabel gibt), und am zweiten Standort einen zweiten Freifunk-Router, welcher mit dem ersten meshen würde und so den Zugang zum Rest des Netzes bereitstellt. Diese Lösung ist auch updatesicher und erfordert keine manuelle Konfiguration.
+Unsere Empfehlung wäre daher, einen Freifunk-Router an der Quelle aufzustellen (dort, wo es ein Netzwerkkabel gibt), und am zweiten Standort einen zweiten Freifunk-Router, welcher mit dem ersten mesht und so den Zugang zum Rest des Netzes bereitstellt. Diese Lösung ist auch updatesicher und erfordert keine manuelle Konfiguration.
 
 ### Wie kann ich nachträglich Änderungen am Router vornehmen?
 
