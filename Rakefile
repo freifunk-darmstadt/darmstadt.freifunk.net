@@ -10,7 +10,7 @@ end
 
 task :htmlproofer do
   HTMLProofer.check_directory("./_site",
-                    {:href_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/]}).run
+                    {:url_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/]}).run
 end
 
 task :trailing_spaces do
@@ -28,4 +28,3 @@ end
 task :clean do
   sh "bundle exec rm -R ./_site || true"
 end
-
