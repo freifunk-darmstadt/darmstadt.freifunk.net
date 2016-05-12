@@ -7,5 +7,5 @@ categories: community
 
 [<img src="{{ "/images/supporters/cowo21.jpg" | prepend: site.baseurl }}" alt="COWO21 - Coworking in Darmstadt" class="image right" style="width: 30%">](http://cowo21.de)
 
-Am kommenden Pfingstmontag treffen wir uns ab 18.30 mit unserem Plenum abweichend im COWO21 in der Holzhofallee 21. Wie immer sind zukünftige Freifunker und Neugierige, die sich dafür interessieren, was wir tun oder selbst einen Freifunk-Router aufstellen möchten, gerne gesehen.
+Am kommenden Pfingstmontag treffen wir uns ab 18.30 mit unserem Plenum abweichend im COWO21 in der [Holzhofallee 21](http://www.openstreetmap.org/way/54552465#map=15/49.8649/8.6495). Wie immer sind zukünftige Freifunker und Neugierige, die sich dafür interessieren, was wir tun oder selbst einen Freifunk-Router aufstellen möchten, gerne gesehen.
 
