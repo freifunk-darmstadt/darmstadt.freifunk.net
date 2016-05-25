@@ -9,7 +9,7 @@ permalink: /mitmachen/informationen-fuer-gewerbetreibende-und-vereine/
 
 ## Informationen für gewerbetreibende und Vereine
 
-Sie sind Betreiber eines Cafés, einer Arztpraxis, eines Vereinsheims oder einer anderen gewerblichen Immobilie mit Kundenverkehr und möchten Ihren Besuchern einen kostenlosen und unbeschränkten Zugang zum Internet ermöglichen? Freifunk stellt die Alternative zu kommerziellen Anbietern mit Gewinnabsicht dar. Wir sind eine gemeinnützige Initiative und sind am Aufbau eines gemeinschaftlich betriebenen Datennetzes interessiert. Im folgenden finden sich weitere Informationen zu Freifunk im Kontext des Aufbaues in Ihrem Unternehmen.
+Sie sind Betreiber eines Cafés, einer Arztpraxis, eines Vereinsheims oder einer anderen gewerblichen Immobilie mit Kundenverkehr und möchten Ihren Besuchern einen kostenlosen und unbeschränkten Zugang zum Internet ermöglichen? Freifunk stellt die Alternative zu kommerziellen Anbietern mit Gewinnabsicht dar. Wir sind eine gemeinnützige Initiative und sind am Aufbau eines gemeinschaftlich betriebenen Datennetzes interessiert. Im folgenden finden sich weitere Informationen zu Freifunk im Kontext des Aufbaues in Ihren Räumlichkeiten.
 
 ### Vorteile von Freifunk
 Bei Freifunk entstehen dem Nutzer und Betreiber eines WLAN-Hotspots keine Kosten. Nutzer müssen sich im Gegensatz zu anderen Anbietern nicht registrieren und surfen ohne zeitliches Limit. Als nicht-gewinnorientierter Verein können wir allerdings auch keine Verfügbarkeitsgarantien oder Wartungsverträge bieten. Fällt der Netzzugang aus, liegt es in Ihrer Verantwortung, uns zu kontaktieren oder das Problem eigentständig zu lösen. Gerne unterstützen wir Sie beim Aufbau und der Wahl der nötigen Hardware und helfen beim Lösen auftretender Probleme.
