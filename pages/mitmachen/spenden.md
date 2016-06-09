@@ -7,7 +7,7 @@ sub_weight: 6
 permalink: /mitmachen/spenden/
 ---
 
-Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Darmstadt e.V.](https://chaos-darmstadt.de). Wir setzen uns ehrenamtlich dafür ein, ein stadtübergreifendes WLAN-Netzwerk aufzubauen und zu betreuen, und stehen gerne interessierten Personen zur Erklärung der technischen Hintergründe zur Verfügung.
+Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich dafür ein, ein stadtübergreifendes WLAN-Netzwerk aufzubauen und zu betreuen, und stehen gerne interessierten Personen zur Erklärung der technischen Hintergründe zur Verfügung.
 
 Um das Netz weiter ausbauen zu können, benötigen wir zusätzliche Hardware, wie bspw. Access-Points und Außenantennen, um öffentliche Plätze zu versorgen oder Richtfunkstrecken zwischen einzelnen Teilen des Netzes aufzubauen um auch abgelegene Standorte zu erreichen.
 

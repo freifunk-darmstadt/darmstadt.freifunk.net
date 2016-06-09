@@ -10,4 +10,4 @@ Der [30ste Chaos Communication Congress](https://de.wikipedia.org/wiki/Chaos_Com
 ![Bild des CDA-Schildes](/images/posts/2014-02-17-cda.jpg "Trollhöhle!! <3")
 
 
-Am 13. Februar 2014 hat dann das erste FFDA Treffen in der Trollhöhle des [Chaos Darmstadt e.V.](https://chaos-darmstadt.de/) stattgefunden. Wir waren zu viert (megfault, redhood, hexa und fleaz) und haben angefangen den Aufbau des Netzwerks zu planen.
+Am 13. Februar 2014 hat dann das erste FFDA Treffen in der Trollhöhle des [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de/) stattgefunden. Wir waren zu viert (megfault, redhood, hexa und fleaz) und haben angefangen den Aufbau des Netzwerks zu planen.

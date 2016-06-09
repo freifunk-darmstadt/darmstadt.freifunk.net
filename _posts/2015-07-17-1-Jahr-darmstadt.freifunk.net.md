@@ -9,7 +9,7 @@ Es ist bereits schon ein Jahr her, als unsere ersten Knoten live gingen, und wir
 Deswegen geben wir eine Party! Das Wetter ist schön, die Getränke liegen kalt und im Garten steht der Grill bereit.
 
 Wann: 25. Juli, ab 18:00 Uhr
-Wo: Im Innenhof des [Chaos Darmstadt e.V.](https://chaos-darmstadt.de/) (Wilhelm-Leuschner-Straße 36)
+Wo: Im Innenhof des [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de/) (Wilhelm-Leuschner-Straße 36)
 
 <!--*-->
 
