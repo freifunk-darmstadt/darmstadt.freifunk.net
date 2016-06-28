@@ -11,8 +11,8 @@ Freifunk Darmstadt ist ein Projekt des [Chaos Darmstadt e.V.](https://www.chaos-
 
 #### Postanschrift
 > Chaos Darmstadt e.V.\\
-> Wilhelm-Leuschner-Straße 36\\
-> 64293 Darmstadt\\
+> Wilhelminenstraße 17\\
+> 64289 Darmstadt\\
 > E-Mail: info@chaos-darmstadt.de
 
 #### Bankverbindung
