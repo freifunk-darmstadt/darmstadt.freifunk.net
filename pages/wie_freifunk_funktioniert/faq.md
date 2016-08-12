@@ -7,6 +7,10 @@ sub_weight: 6
 permalink: /wie-freifunk-funktioniert/faq/
 ---
 
+### Wie verbinde ich mich mit dem Freifunk-Netz?
+
+Wenn du dich in der Nähe eines Freifunk-Knotens befindest, öffne die WLAN-Einstellungen auf deinem Endgerät und suche nach dem Netzwerk darmstadt.freifunk.net. Mit einem Klick auf dieses verbindest du dich mit dem Darmstädter Freifunk-Netz.
+
 ### Wo stehen schon Freifunk-Router?
 
 Schau mal auf der [Karte](../../karte/) nach. Wenn es bei dir noch keinen Freifunk-Router in der Nachbarschaft gibt, dann sei die oder der Erste!
