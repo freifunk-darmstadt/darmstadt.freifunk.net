@@ -4,7 +4,7 @@ tagline: das freie WLAN-Netzwerk für DA und Umgebung
 email: info@darmstadt.freifunk.net
 community_email: community@darmstadt.freifunk.net
 description: > # this means to ignore newlines until "baseurl:"
- Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Internetzugang anzubieten.
+ Freifunk Darmstadt ist eine lokale Initiative mit dem Ziel, ein WLAN-Netzwerk über Darmstadt aufzuspannen und freien Netzzugang anzubieten.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://darmstadt.freifunk.net" # the base hostname & protocol for your site
 twitter_username: freifunkDA
