@@ -82,9 +82,5 @@ Alternativ kann auch direkt an das Bankkonto des Chaos Darmstadt e.V. überwiese
 
 Für Spenden muss hierbei im *Verwendungszweck "Freifunk Darmstadt"* vermerkt sein. Auf Anfrage stellt der Vorstand zum Ende eines Geschäftsjahres Zuwendungsbescheinigungen aus.
 
-## Spenden für die Internetanbindung
-
-Unsere Internetanbindung erhalten wird dankenswerterweise vom Freifunk Rheinland e.V., der RIPE-Mitglied ist. [Spenden](https://freifunk-rheinland.net/mitmachen/spenden) sind dort ebenfalls sehr gerne gesehen.
-
 
 *Vielen Dank für die Unterstützung!*
