@@ -17,3 +17,5 @@ Seit dem vergangenen Wochenende gibt es freies WLAN in der Unterkunft für Gefl�
 Im Rahmen der Initiative "Freifunk hilft" haben wir im letzten Jahr damit begonnen, Geflüchten im Kreis Groß-Gerau sowie in und um Darmstadt einen freien Netzzugang zu ermöglichen, so zum Beispiel in Stockstadt, Riedstadt-Goddelau und (vor der Schließung) in der Rheinhalle in Biebesheim. Das Internet bietet den Geflüchteten die Möglichkeit, mit Ihrer Familien in Kontakt zu bleiben und Informationen über Asylverfahren oder einfach nur die nächste Busverbindung abzurufen. Auch ermöglichen Übersetzungsapps das Erlernen der deutschen Sprache und erleichtern die Kommunikation, wenn gerade kein Dol­met­scher in der Nähe ist.
 
 Zukünftige Projekte werden wir weiterhin vorab auf unserer Helfer-Liste ankündigen: [https://darmstadt.freifunk.net/mitmachen/mithelfen/]()
+
+***UPDATE*** Das Echo berichtet: [http://www.echo-online.de/lokales/kreis-gross-gerau/gross-gerau/wichtig-fuer-die-kommunikation-in-die-heimat_17294578.htm]()
