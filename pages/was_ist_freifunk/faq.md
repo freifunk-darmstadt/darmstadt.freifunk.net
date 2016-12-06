@@ -2,9 +2,9 @@
 title: Häufige Fragen
 layout: page
 sub_menu: true
-top_url: /wie-freifunk-funktioniert/
 sub_weight: 6
-permalink: /wie-freifunk-funktioniert/faq/
+top_url: /was-ist-freifunk/
+permalink: /was-ist-freifunk/faq/
 ---
 
 ### Wie verbinde ich mich mit dem Freifunk-Netz?
