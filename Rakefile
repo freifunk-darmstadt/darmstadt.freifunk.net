@@ -10,7 +10,9 @@ end
 
 task :htmlproofer do
   HTMLProofer.check_directory("./_site",
-                    {:url_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/]}).run
+                    {:url_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/],
+                     :hydra => { :max_concurrency => 5 }
+  }).run
 end
 
 task :trailing_spaces do
