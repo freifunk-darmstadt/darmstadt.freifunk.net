@@ -7,7 +7,7 @@ sub_weight: 6
 permalink: /mitmachen/mithelfen/
 ---
 
-Wir sind ständig auf der Suche nach Mithelfern, die uns bei unserer Arbeit unterstützen! Die anfallenden Tätigkeiten sind vielfältig und sehr unterschiedlicher Art. Vom Kabelverlegen über das Aufstellen von Hardware, Gegenlesen von Flyern und Helfen bei Veranstaltungen bis hin zum Verfassen von Texten brauchen wir bei vielen Dingen Unterstützung.
+Wir sind ständig auf der Suche nach Mithelfern, die uns bei unserer Arbeit unterstützen! Die anfallenden Tätigkeiten sind vielfältig und sehr unterschiedlicher Art. Vom Gegenlesen von Flyern bis zur Koordination von Veranstaltungen brauchen wir bei vielen Dingen Unterstützung.
 
 ## Mailingliste
 

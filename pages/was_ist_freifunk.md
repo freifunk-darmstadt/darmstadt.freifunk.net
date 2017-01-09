@@ -32,7 +32,7 @@ Freifunk Darmstadt möchte freie, unabhängige Bürgernetze aufbauen und bietet 
 ## Was macht ein freies Netz aus?
 Im Gegensatz zu kommerziellen Anbietern, die primär an der Vermarktung von für Betreiber oder Nutzer kostenplichtigen Hotspots interessiert sind, ist uns der Aufbau eines unabhängigen Kommunikationsnetzes wichtiger. Aus diesem Grund, ermöglicht die Freifunk-Software die direkte Kommunikation zwischen nahe beieinanderstehenden Routern ohne den Umweg über das Internet. Auch im Falle eines Ausfalls herkömmlicher Infrastruktur ist ein solches Freifunk-Netz mit direkter Kommunikation zwischen den teilnehmenden Geräten weiterhin nutzbar. Wir verstehen frei als
 <ul>
-<li>öffentlich und anonym zugänglich</li>
+<li>öffentlich und ohne Registrierung zugänglich</li>
 <li>nicht kommerziell und unzensiert</li>
 <li>im Besitz einer Gemeinschaft und dezentral organisiert</li>
 </ul>
