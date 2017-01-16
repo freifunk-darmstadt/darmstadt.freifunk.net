@@ -18,7 +18,5 @@ Freifunk Darmstadt ist ein Projekt des [Chaos Darmstadt e.V.](https://www.chaos-
 #### Bankverbindung
 Unsere Bankverbindung findest du auf der [Spendenseite](/mitmachen/spenden/#manuell-per-berweisung).
 
-#### Pressesprecher
-> Peter Löwenstein\\
-> [+49 151 58800067](tel:+4915158800067) \\
-> <em>(nur für Presseanfragen)</em>
+#### Presseanfragen
+Bitte richten Sie ihre Anfragen an presse@darmstadt.freifunk.net.
