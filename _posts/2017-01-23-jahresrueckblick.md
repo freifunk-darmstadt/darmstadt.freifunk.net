@@ -4,9 +4,9 @@ title: "Jahresrückblick 2016"
 date: 2017-01-23 12:00:00
 categories: community
 ---
-Mit 2016 ging für Freifunk Darmstadt ein überaus erfolgreiches und tatenreiches Jahr zu Ende. Wir haben gemeinsam einige Meilensteine erreicht, was uns sehr stolz macht. 
+Mit 2016 ging für Freifunk Darmstadt ein überaus erfolgreiches und tatenreiches Jahr zu Ende. Wir haben gemeinsam einige Meilensteine erreicht, was uns sehr stolz macht.
 
-Am 19. Februar 2016 konnten wir in der Oettinger Villa mit unserer 1K300 Party das Erreichen von täglich 1000 gleichzeitig aktiven Nutzern im Freifunk-Netz, sowie 300 dauerhaft aktiven Knoten feiern. 
+Am 19. Februar 2016 konnten wir in der Oettinger Villa mit unserer 1K300 Party das Erreichen von täglich 1000 gleichzeitig aktiven Nutzern im Freifunk-Netz, sowie 300 dauerhaft aktiven Knoten feiern.
 
 <!--*-->
 
@@ -25,7 +25,7 @@ Im Juli 2016 sprach uns das Wirtschaftsministeriums des Landes Hessen seinen [Da
 Insgesamt wurden in der Stadt Darmstadt, im Landkreis Darmstadt-Dieburg sowie im Kreis Groß-Gerau 40 Flüchtlingsunterkünfte von und mit Freifunk Darmstadt an das Netz angeschlossen. Mit den zahlreich geleisteten Arbeitsstunden konnte so auch die Kooperation mit den Landkreisen bzw. Kommunen weiter ausgebaut werden. Denn nicht nur Geflüchtete wollen (und müssen) mit Barriere- sowie Gebührenfreien Netzzugang versorgt werden.
 Freifunk wird bereits aktiv in [Groß-Umstadt](http://www.gross-umstadt.de/de/1475131138-freies-wlan-auf-dem-umstaedter-marktplatz), [Rossdorf](http://webcache.googleusercontent.com/search?q=cache:dUIpVk6ym34J:www.rossdorf.de/index.php%3Fid%3D7%26L%3D0flash.htm%26tx_ttnews%255Btt_news%255D%3D649%26tx_ttnews%255BbackPid%255D%3D13%26cHash%3D746f52823466746464ec521b53c5fc5e+&cd=5&hl=de&ct=clnk&gl=de), Otzberg, [Büttelborn](http://www.echo-online.de/lokales/kreis-gross-gerau/buettelborn/glb-zielt-auf-kostenloses-surfen-am-rathaus_16586433.htm) und Babenhausen ausgebaut. Seit den ersten Gesprächen mit Achim Knoke, dem Bürgermeister von Babenhausen, im Jahr 2015, wurden im letzten Jahr von ihm, in Eigeninitative, über 40 Knoten in Betrieb genommen. Babenhausen betreibt auch schon eine eigene Webseite für den [örtlichen Freifunk](https://freifunk.babenhausen.de/historie/).
 
-Zudem werden Dieburg und Weiterstadt zukünftig Freifunk einsetzen, um öffentliche Plätze zu versorgen. Weitere Gemeinden im Landkreis Darmstadt-Dieburg und Kreis Groß-Gerau werden in 2017 folgen, denn die Gespräche laufen schon. Nach dem Kreistagsbeschluss im Kreis Groß-Gerau begleitet man dort unser Engagement positiv und will uns aktiv unterstützen. 
+Zudem werden Dieburg und Weiterstadt zukünftig Freifunk einsetzen, um öffentliche Plätze zu versorgen. Weitere Gemeinden im Landkreis Darmstadt-Dieburg und Kreis Groß-Gerau werden in 2017 folgen, denn die Gespräche laufen schon. Nach dem Kreistagsbeschluss im Kreis Groß-Gerau begleitet man dort unser Engagement positiv und will uns aktiv unterstützen.
 Zusätzlich wurde durch privates Engagement der Freifunk Ausbau in Gernsheim, Seeheim-Jugenheim, Griesheim, Gräfenhausen (Weiterstadt), Michelstadt und natürlich in der Stadt Darmstadt massiv vorangetrieben.
 
 Dazu haben wir uns in 2016 auch intensiv mit Richtfunk auseinandergesetzt. Wurde bereits am 21. Januar 2016 eine 13km lange Richtfunkstrecke zwischen [Langen und Darmstadt](https://twitter.com/FreifunkDA/status/692400142935289858) getestet ist dann ein paar Monate später eine 2km Richtfunkstrecke zwischen Riedstadt und Stockstadt dauerhaft in Betrieb genommen worden. Im Spätsommer wurde eine 3,7km lange Richtfunkstrecke von [Malchen nach Pfungstadt](https://twitter.com/FreifunkDA/status/754043026985582592) installiert. Kurz darauf war ein längerer Test für eine 12km lange Strecke von der Bergstrasse aus [Malchen bis an den Rhein nach Riedstadt](https://twitter.com/Dirk_S_/status/764189934991319040) angesetzt. Diese haben uns wertvolle Informationen über die Möglichkeiten und den dauerhaften Einsatz von Richtfunkstrecken geliefert, welche uns im Jahr 2017 helfen werden, ein unabhängiges, ausfallsicheres und hochperfomantes Backbonenetz aufzubauen.
