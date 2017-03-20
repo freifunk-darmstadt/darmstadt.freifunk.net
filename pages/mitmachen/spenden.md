@@ -39,7 +39,6 @@ Für Spenden sollte hierbei im *Verwendungszweck "Freifunk"* vermerkt sein. Fall
 
 Durch das [boost-Project](https://www.boost-project.com/de/charities/3433) kannst du uns mit Käufen in zahlreichen Online-Shops, wie u.a.
 [Alternate](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=472),
-[Amazon](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=10),
 [Conrad](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=297),
 [Deutsche Bahn](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=611),
 [ELV](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=176),
