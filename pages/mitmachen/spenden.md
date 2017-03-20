@@ -7,7 +7,20 @@ sub_weight: 6
 permalink: /mitmachen/spenden/
 ---
 
-Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich dafür ein, ein stadtübergreifendes WLAN-Netzwerk aufzubauen und zu betreuen, und stehen gerne interessierten Personen zur Erklärung der technischen Hintergründe zur Verfügung.
+Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich für ein stadtübergreifendes WLAN-Netzwerk ein und unterstützen interessierte Personen gerne mit unseren bisherigen Erfahrungen, die wir dabei gesammelt haben.
+
+## Direkt per Überweisung
+
+Am einfachsten kannst Du uns Deine Spende direkt via Überweisung an das Bankkonto des Chaos Darmstadt e.V. überweisen:
+
+<blockquote>
+  Chaos Darmstadt e.V.<br/>
+  IBAN: DE47 5089 0000 0064 3445 01<br/>
+  BIC: GENODEF1VBD<br/>
+  Volksbank Darmstadt - Südhessen eG
+</blockquote>
+
+Für Spenden sollte hierbei im *Verwendungszweck "Freifunk"* vermerkt sein. Falls Du eine Spendenbescheinigungen benötigst, [wende Dich bitte an den Vorstand](https://git.darmstadt.ccc.de/vorstand/doku/blob/master/Spenden.md).
 
 ## Förderung durch Online-Shopping
 
@@ -62,19 +75,6 @@ Das Spenden ist am einfachsten über unseren Partner [betterplace.org](https://w
   })();
 </script>
 <div id="betterplace_donation_iframe" style="text-align:center;background: transparent url('https://www.betterplace.org/assets/new_spinner.gif') 275px 20px no-repeat;"><strong><a href="https://www.betterplace.org/de/projects/27613-freifunk-darmstadt/donations/new">Jetzt Spenden für „Freifunk Darmstadt“ bei unserem Partner betterplace.org</a></strong></div>
-
-## Manuell per Überweisung
-
-Alternativ kann auch direkt an das Bankkonto des Chaos Darmstadt e.V. überwiesen werden:
-
-<blockquote>
-  Chaos Darmstadt e.V.<br/>
-  IBAN: DE47 5089 0000 0064 3445 01<br/>
-  BIC: GENODEF1VBD<br/>
-  Volksbank Darmstadt - Südhessen eG
-</blockquote>
-
-Für Spenden muss hierbei im *Verwendungszweck "Freifunk Darmstadt"* vermerkt sein. Auf Anfrage stellt der Vorstand zum Ende eines Geschäftsjahres Zuwendungsbescheinigungen aus.
 
 
 *Vielen Dank für die Unterstützung!*
