@@ -1,0 +1,21 @@
+image: ruby:2.1
+
+variables:
+  LANG: "C.UTF-8"
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - bundler
+  artifacts:
+    paths:
+    - test
+
+test:
+  stage: test
+  script:
+    - rake test
