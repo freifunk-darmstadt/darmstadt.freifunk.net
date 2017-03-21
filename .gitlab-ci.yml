@@ -12,6 +12,7 @@ build:
   stage: build
   script:
     - bundler
+    - gem install rake
   artifacts:
     paths:
     - test
