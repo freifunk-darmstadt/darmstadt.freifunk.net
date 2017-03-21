@@ -19,4 +19,4 @@ build:
 test:
   stage: test
   script:
-    - rake test
+    - bundle exec rake test
