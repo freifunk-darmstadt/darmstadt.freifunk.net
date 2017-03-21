@@ -12,7 +12,6 @@ build:
   stage: build
   script:
     - bundler
-    - gem install rake
 
 test:
   stage: test
