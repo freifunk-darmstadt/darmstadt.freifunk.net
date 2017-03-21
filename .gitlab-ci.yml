@@ -13,11 +13,12 @@ build:
   script:
     - bundler
     - gem install rake
-  artifacts:
-    paths:
-    - test
 
 test:
   stage: test
   script:
     - bundle exec rake test
+  artifacts:
+    paths:
+    - _site
+
