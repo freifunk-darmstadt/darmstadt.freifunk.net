@@ -16,7 +16,7 @@ Freifunk Darmstadt ist ein Projekt des [Chaos Darmstadt e.V.](https://www.chaos-
 > E-Mail: info@chaos-darmstadt.de
 
 #### Bankverbindung
-Unsere Bankverbindung findest du auf der [Spendenseite](/mitmachen/spenden/#manuell-per-berweisung).
+Unsere Bankverbindung findest du auf der [Spendenseite](/mitmachen/spenden/).
 
 #### Presseanfragen
 Bitte richten Sie ihre Anfragen an [presse@darmstadt.freifunk.net](mailto:presse@darmstadt.freifunk.net).
