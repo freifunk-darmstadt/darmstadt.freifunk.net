@@ -17,7 +17,7 @@ Bereits im Februar erhielten wir eine Anfrage, ob wir nicht mit unserem technisc
 
 <a href="{{ "/images/posts/2017-05-01-speedskating/speedskating.jpg" | prepend: site.baseurl }}"><img src="{{ "/images/posts/2017-05-01-speedskating/speedskating.jpg" | prepend: site.baseurl }}" alt="Speedskater in Aktion" class="image left" style="width: 30%"></a>
 
-Nachdem die Planungen abgeschlossen waren, konnten wir bereits eine Woche vor Beginn des Events mit dem Aufbau der Richtfunkstrecke beginnen. Am Vortrag der Veranstaltung ging dann die Einrichtung des Freifunk-Netzes im Skate-Park über die Bühne. Hier kam uns unsere Erfahrung aus den zahlreichen Unterkünften für Geflüchtete zugute, in denen wir bereits seit Herbst 2015 viel über die Tücken von größeren WLAN-Installationen lernen konnten. Nach mehreren Stunden Aufbau war die Arbeit getan und wir warteten gespannt auf die ersten Gäste am nächsten Tag.
+Nachdem die Planungen abgeschlossen waren, konnten wir bereits eine Woche vor Beginn des Events mit dem Aufbau der Richtfunkstrecke beginnen. Am Vortag der Veranstaltung ging dann die Einrichtung des Freifunk-Netzes im Skate-Park über die Bühne. Hier kam uns unsere Erfahrung aus den zahlreichen Unterkünften für Geflüchtete zugute, in denen wir bereits seit Herbst 2015 viel über die Tücken von größeren WLAN-Installationen lernen konnten. Nach mehreren Stunden Aufbau war die Arbeit getan und wir warteten gespannt auf die ersten Gäste am nächsten Tag.
 
 <a href="{{ "/images/posts/2017-05-01-speedskating/richtfunk.jpg" | prepend: site.baseurl }}"><img src="{{ "/images/posts/2017-05-01-speedskating/richtfunk.jpg" | prepend: site.baseurl }}" alt="Richtfunk-Antenne" class="image right" style="width: 30%"></a>
 
