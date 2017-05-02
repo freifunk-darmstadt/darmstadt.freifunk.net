@@ -9,7 +9,7 @@ categories: community
 
 Teilnehmer aus über 30 Nationen fanden sich am vergangenen Wochenende (28.-30.4.) in Groß-Gerau zum 39. Internationalen [Speedskating-Kriterium](http://www.speedskater-kriterium.de/) zusammen um bei wunderbarem Wetter im renommierten Wettkampf auf dem Gelände des [Sportvereins Blau-Gelb Groß-Gerau](https://www.blau-gelb-gg.de/) gegeneinander anzutreten.
 
-<a href="{{ "/images/posts/2017-05-01-speedskating/zeltrouter.jpg" | prepend: site.baseurl }}"><img src="{{ "/images/posts/2017-05-01-speedskating/zeltrouter.jpg" | prepend: site.baseurl }}" alt="Router im Eingangsbereich" class="image right" style="width: 30%"></a>
+<a href="{{ "/images/posts/2017-05-01-speedskating/zeltrouter.jpg" | prepend: site.baseurl }}"><img src="{{ "/images/posts/2017-05-01-speedskating/zeltrouter.jpg" | prepend: site.baseurl }}" alt="Router im Eingangsbereich" class="image right noexcerpt" style="width: 30%"></a>
 
 Bereits im Februar erhielten wir eine Anfrage, ob wir nicht mit unserem technischen Know-how aushelfen und so einen Internetzugang für die Besucher und den Livestream der Veranstaltung ermöglichen könnten. Da die Veranstaltung - wie die Aktivitäten von Freifunk Darmstadt - im Ehrenamt geplant, organisiert und durchgeführt wird, fiel uns die Entscheidung, hier aktiv zu werden, nicht schwer. Mit freundlicher Unterstützung des Kreises Groß-Gerau war es so möglich, vom benachbarten Gebäude der Kreisverwaltung eine Richtfunkstrecke zum Skate-Park aufzubauen, über die das Gelände ans Internet angebunden werden konnte.
 
