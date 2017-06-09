@@ -10,7 +10,7 @@ sub_weight: 1
 ---
 
 ## Was ist Freifunk?
-Freifunk ist eine gemeinschaftliche Bewegung, die einen freien, gleichberechtigt nutzbaren Netzzugang als gesellschaftlichen Grundstein sieht. Wir verfolgen kein kommerzielles Interesse und unterstützen das Netz ehrenamtlich. Die Vision von Freifunk ist die Verbreitung freier Netzwerke, die Demokratisierung der Kommunikationsmedien und die Förderung lokaler Sozialstrukturen. Freifunk finanziert sich ausschließlich über Spenden und lebt von der Beteilugung engagierter Menschen.
+Freifunk ist eine gemeinschaftliche Bewegung, die einen freien, gleichberechtigt nutzbaren Netzzugang als gesellschaftlichen Grundstein sieht. Wir verfolgen kein kommerzielles Interesse und unterstützen das Netz ehrenamtlich. Die Vision von Freifunk ist die Verbreitung freier Netzwerke, die Demokratisierung der Kommunikationsmedien und die Förderung lokaler Sozialstrukturen. Freifunk finanziert sich ausschließlich über Spenden und lebt von der Beteiligung engagierter Menschen.
 
 Freie Netze werden von immer mehr Menschen in Eigenregie aufgebaut und gewartet. Alle aktiv am Freifunk-Netz Teilnehmenden stellen ihre WLAN-Router für den Datentransfer der Allgemeinheit zur Verfügung. Dabei können sie natürlich auch selbst Daten über das Freifunk-Netz übertragen oder über von anderen Teilnehmenden eingerichtete Dienste im Netz chatten oder telefonieren. Die Nutzung des Freifunk-Netzes ist allerdings keineswegs auf die aktiven Mitglieder der Initiativen beschränkt. Freifunk-Netze sind so aufgebaut, dass sie - ein WLAN-fähiges Endgerät vorausgesetzt - von Allen ohne Registrierung und ohne künstliche Zugangsbeschränkungen genutzt werden können.
 
