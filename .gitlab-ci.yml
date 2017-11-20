@@ -10,6 +10,7 @@ before_script:
 stages:
   - build
   - test
+  - deploy
 
 build:
   stage: build
@@ -24,3 +25,7 @@ test:
     paths:
     - _site
 
+deploy:
+  stage: deploy
+  script:
+    - curl https://darmstadt.freifunk.net/deploy
