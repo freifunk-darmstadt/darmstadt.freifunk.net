@@ -1,31 +1,42 @@
-image: ruby:2.4
-
 variables:
   LANG: "C.UTF-8"
   NOKOGIRI_USE_SYSTEM_LIBRARIES: "1"
 
-before_script:
-  - bundle install
-
 stages:
   - build
   - test
-  - deploy
+  - publish
 
 build:
   stage: build
+  image: jekyll/jekyll:latest
+  cache:
+    key: $CI_COMMIT_SHA
+    paths:
+      - output
   script:
-    - bundle exec rake build
+    - jekyll build -d output
+  artifacts:
+    paths:
+    - output
 
 test:
   stage: test
-  script:
-    - bundle exec rake test
-  artifacts:
+  image: 18fgsa/html-proofer:gitlab-ci
+  allow_failure: true
+  cache:
+    key: $CI_COMMIT_SHA
+    policy: pull
     paths:
-    - _site
-
-deploy:
-  stage: deploy
+      - output/
   script:
-    - curl https://darmstadt.freifunk.net/deploy
+    - htmlproofer ./output
+
+publish:
+  image: appropriate/curl:latest
+  stage: publish
+  only:
+    - master
+  script:
+    - curl $DEPLOY_URL
+
