@@ -12,6 +12,7 @@ build:
   image: jekyll/jekyll:latest
   cache:
     key: $CI_COMMIT_SHA
+    policy: push
     paths:
       - output
       - publish
@@ -41,6 +42,7 @@ publish:
   image: appropriate/curl:latest
   cache:
     key: $CI_COMMIT_SHA
+    policy: pull
     paths:
       - publish
   only:
