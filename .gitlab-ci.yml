@@ -14,8 +14,12 @@ build:
     key: $CI_COMMIT_SHA
     paths:
       - output
+      - publish
   script:
     - jekyll build -d output
+  after_script:
+    - mkdir publish
+    - echo $CI_JOB_ID > publish/build_job_id
   artifacts:
     paths:
     - output
@@ -33,10 +37,14 @@ test:
     - htmlproofer ./output
 
 publish:
-  image: appropriate/curl:latest
   stage: publish
+  image: appropriate/curl:latest
+  cache:
+    key: $CI_COMMIT_SHA
+    paths:
+      - publish
   only:
     - master
   script:
-    - curl $DEPLOY_URL
+    - curl $DEPLOY_URL?$(cat publish/build_job_id)
 
