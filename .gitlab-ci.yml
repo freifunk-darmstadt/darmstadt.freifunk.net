@@ -44,7 +44,7 @@ publish:
     key: $CI_COMMIT_SHA
     policy: pull
     paths:
-      - publish
+      - publish/
   only:
     - master
   script:
