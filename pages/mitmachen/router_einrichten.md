@@ -32,7 +32,7 @@ Dein Router sollte nun in den Konfigurationsmodus starten. Du erhälst erneut IP
 3. Füge GPS-Koordinaten des Router-Standorts ein. Diese kannst du auf unterschiedliche Weisen erhalten:
   - Am PC: über [unsere Karte](https://map.darmstadt.freifunk.net) (Zuerst Pin klicken, dann Doppelklick auf die Position des Routers)
   - Android: [GPS Status & Toolbox](https://play.google.com/store/apps/details?id=com.eclipsim.gpsstatus2)
-4. Trage eine funktionierende Kontaktmöglichkeit an. Deine Adresse wird ausschließlich zur Kontaktaufnahme durch uns genutzt und niemals an Dritte weitergegeben.
+4. [optional] Gib eine Kontaktmöglichkeit an, um anderen Freifunkern zu ermöglichen, Kontakt mit dir aufzunehmen. Diese wird anschließend auf der Info-Seite deines Knotens öffentlich im Internet angezeigt.
 5. Nach einem Klick auf `Speichern und Neustarten` siehst du den Öffentlichen Schlüssel für den VPN-Zugang. Diesen sendest du bitte per E-Mail an [keys@darmstadt.freifunk.net](mailto:keys@darmstadt.freifunk.net).
 
 	> &#35; PLZ-Wahlname \\
