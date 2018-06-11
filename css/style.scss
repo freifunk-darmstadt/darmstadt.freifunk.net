@@ -552,6 +552,32 @@
 		}
 	}
 
+	.box-before-oversized {
+		border-radius: 6px 6px 0px 0px;
+		margin: 0;
+		box-shadow: none;
+	}
+
+	.box-oversized {
+		width: 80em;
+		margin-left: -10em;
+		padding: 2em;
+		background: #fff;
+		border-radius: 6px;
+	}
+
+	.box-after-oversized {
+		border-radius: 0px 0px 6px 6px;
+		margin: 0;
+	}
+
+	.box-warn {
+		background-color: rgba(255, 100, 0, 0.3);
+	}
+	.box-good {
+		background-color: rgba(0, 255, 0, 0.4);
+	}
+
 /* Icon */
 
 	.icon {
@@ -809,6 +835,9 @@
 		}
 
 		&.recommendations {
+			table-layout: fixed;
+			margin-bottom: 0;
+
 			tr:nth-of-type(1) td {
 				font-weight: bold;
 			}
