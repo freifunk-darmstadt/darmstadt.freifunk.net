@@ -566,6 +566,12 @@
 		border-radius: 6px;
 	}
 
+	@media screen and (max-width: 1100px) {
+		.box-oversized {
+			margin-left: 0;
+		}
+	}
+
 	.box-after-oversized {
 		border-radius: 0px 0px 6px 6px;
 		margin: 0;
