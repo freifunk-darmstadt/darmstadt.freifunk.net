@@ -8,6 +8,8 @@ stages:
   - publish
 
 build:
+  tags:
+    - as8365
   stage: build
   image: jekyll/jekyll:latest
   cache:
@@ -26,6 +28,8 @@ build:
     - output
 
 test:
+  tags:
+    - as8365
   stage: test
   image: 18fgsa/html-proofer:gitlab-ci
   allow_failure: true
@@ -38,6 +42,8 @@ test:
     - htmlproofer ./output
 
 publish:
+  tags:
+    - as8365
   stage: publish
   image: appropriate/curl:latest
   cache:
