@@ -3,7 +3,7 @@ title: Was ist Freifunk?
 permalink: /was-ist-freifunk/
 layout: page
 main_menu: true
-weight: 3
+weight: 2
 top_url: /was-ist-freifunk/
 sub_menu: true
 sub_weight: 1
