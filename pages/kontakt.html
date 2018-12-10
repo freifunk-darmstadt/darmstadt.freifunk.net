@@ -45,7 +45,7 @@ layout:
     <div class="8u 12u(3)">
       <div class="box" id="treffen">
         <h3>Treffen</h3>
-        <p>Wir treffen uns <strong>jede Woche montags</strong> im Hackspace des <a href="https://www.chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelminenstraße 17. Der Hackspace befindet sich im 3. Stock.</p>
+        <p>Wir treffen uns <strong>am zweiten Montag im Monat</strong> im Hackspace des <a href="https://www.chaos-darmstadt.de/">Chaos Darmstadt e.V.</a>, in der Wilhelminenstraße 17. Die Räume befindet sich im 3. Stock.</p>
         <p>Die nächstgelegene Bus- und Straßenbahnhaltestelle ist der Luisenplatz. Von dort läufst Du rechts am Luisencenter vorbei die Wilhelminenstraße hoch und stehst nach etwa 150 Metern vor dem unscheinbaren Eingang auf der rechten Seite.</p>
         <p>Wenn Du neu bei Freifunk bist, bereits einen Router einrichten möchtest oder einfach nur mehr über das Projekt erfahren willst, komm' einfach zu einem persönlichen Gespräch um <strong>19:00 Uhr</strong> vorbei. Wir freuen uns auf deinen Besuch!</p>
 
@@ -63,7 +63,7 @@ layout:
     <div class="4u 12u(3)">
       <div class="box">
         <h3>Nächstes Treffen</h3>
-        <p>Unser nächstes Treffen findet am <strong><span id="next_meet_date">n&auml;chsten Montag</span></strong> um <strong>19:00</strong> Uhr statt.</p>
+        <p>Unser Treffen findet am <strong><span id="next_meet_date">zweiten Montag im Monat</span></strong> um <strong>19:00</strong> Uhr statt.</p>
       </div>
 
       <div id="map" class="box" style="height: 40em;"></div>
@@ -94,7 +94,8 @@ layout:
       else
           nextDate = moment().weekday(7);
 
-      $('#next_meet_date').text(nextDate.format('D. MMMM'));
+      // FIXME
+      //$('#next_meet_date').text(nextDate.format('D. MMMM'));
   </script>
 
   {% include footer.html %}
