@@ -7,10 +7,10 @@ permalink: /impressum/
 top_url: /impressum/
 ---
 
-Freifunk Darmstadt ist ein Projekt des [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de), der im Vereinsregister des Amtsgerichts Darmstadt unter der Vereinregisternummer 3413 eingetragen ist. Der Verein ist gemeinnützig und finanziert sich über Mitgliedsbeiträge und [Spenden](/mitmachen/spenden/).
+Freifunk Darmstadt ist ein Projekt des [Chaos Computer Club Darmstadt e.V.](https://www.chaos-darmstadt.de), der im Vereinsregister des Amtsgerichts Darmstadt unter der Vereinregisternummer 3413 eingetragen ist. Der Verein ist gemeinnützig und finanziert sich über Mitgliedsbeiträge und [Spenden](/mitmachen/spenden/).
 
 #### Postanschrift
-> Chaos Darmstadt e.V.\\
+> Chaos Computer Club Darmstadt e.V.\\
 > Wilhelminenstraße 17\\
 > 64283 Darmstadt\\
 > E-Mail: info@chaos-darmstadt.de
