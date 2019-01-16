@@ -844,6 +844,11 @@
 			table-layout: fixed;
 			margin-bottom: 0;
 
+			td {
+				width: 16%;
+				max-width: 20%;
+			}
+
 			tr:nth-of-type(1) td {
 				font-weight: bold;
 			}
@@ -1634,4 +1639,13 @@ p.video-attribution {
 /*excerpts*/
 .landing .noexcerpt {
 	display: none;
+}
+
+/* jquery ui overrides */
+.ui-tabs .ui-tabs-panel {
+	padding: 0.4em 0em !important;
+}
+
+p.tabs-description {
+	margin: 10px;
 }

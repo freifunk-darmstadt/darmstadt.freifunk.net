@@ -9,6 +9,11 @@ permalink: /mitmachen/unterstuetzte-geraete/
 
 <header>
 	<h2 class="post-title">{{ page.title }}</h2>
+	<script>
+	$( function() {
+	  $( "#tabs" ).tabs();
+	} );
+	</script>
 </header>
 
 <div class="box">
@@ -34,236 +39,477 @@ permalink: /mitmachen/unterstuetzte-geraete/
 
 <div class="box box-before-oversized">
 	<h3>Kaufempfehlungen</h3>
-	<p>Je nach Geldbeutel, Zukunftssicherheit und Installationsort eignen sich verschiedene Geräte:</p>
-</div>
-<div class="box-oversized">
-	<table class="recommendations">
-		<tr>
-			<td>Abbildung</td>
-			<td><img alt="TP-Link TL-WR1043N/ND v2/v3/v4/v5" src="/images/routers/wr1043nd.svg"></td>
-			<td><img alt="AVM FRITZ!Box 4020" src="/images/routers/fritz4020.svg"></td>
-			<td><img alt="TP-Link Archer C7 v2/v4" src="/images/routers/archer_c7.svg"></td>
-			<td><img alt="Ubiquiti Unifi AC Lite" src="/images/routers/unifi_ac_lite.svg"></td>
-			<td><img alt="Ubiquiti Unifi AC Mesh" src="/images/routers/unifi_ac_mesh.svg"></td>
-		</tr>
-		<tr>
-			<td>Hersteller</td>
-			<td>TP-Link</td>
-			<td>AVM</td>
-			<td>TP-Link</td>
-			<td>Ubiquiti</td>
-			<td>Ubiquiti</td>
-		</tr>
-		<tr>
-			<td>Modell</td>
-			<td>TL-WR1043N/ND<br />v2/v3/v4/v5</td>
-			<td>FRITZ!Box 4020</td>
-			<td>Archer C7<br />v2/v4</td>
-			<td>UniFi AC Lite</td>
-			<td>UniFi AC Mesh</td>
-		</tr>
-		<tr>
-			<td>Eignung</td>
-			<td>Indoor</td>
-			<td>Indoor</td>
-			<td>Indoor</td>
-			<td>Indoor<br />Deckeninstallation</td>
-			<td>Outdoor</td>
-		</tr>
-		<tr>
-			<td>Stromversorgung</td>
-			<td>Netzteil</td>
-			<td>Netzteil</td>
-			<td>Netzteil</td>
-			<td>PoE Injektor<br />802.3af</td>
-			<td>PoE Injektor<br />802.3af</td>
-		</tr>
-		<tr>
-			<td>CPU</td>
-			<td>1x750 MHz<br />MIPS 74Kc</td>
-			<td>1x750 MHz<br />MIPS 74Kc</td>
-			<td>1x750 MHz<br />MIPS 74Kc</td>
-			<td>1x750 MHz<br />MIPS 74Kc</td>
-			<td>1x750 MHz<br />MIPS 74Kc</td>
-		</tr>
-		<tr>
-			<td>RAM</td>
-			<td>64 MB</td>
-			<td class="box-good">128 MB</td>
-			<td>128 MB</td>
-			<td>128 MB</td>
-			<td>128 MB</td>
-		</tr>
-		<tr>
-			<td>Flash</td>
-			<td>8 MB</td>
-			<td class="box-good">16 MB</td>
-			<td class="box-good">16 MB</td>
-			<td class="box-good">16 MB</td>
-			<td class="box-good">16 MB</td>
-		</tr>
-		<tr>
-			<td>Wi-Fi Standard</td>
-			<td class="box-warn">802.11n</td>
-			<td class="box-warn">802.11n</td>
-			<td>802.11ac (Wave1)</td>
-			<td>802.11ac (Wave1)</td>
-			<td>802.11ac (Wave1)</td>
-		</tr>
-		<tr>
-			<td>Frequenzbänder</td>
-			<td>2.4 GHz</td>
-			<td>2.4 GHz</td>
-			<td class="box-good">2.4 GHz<br />5 GHz</td>
-			<td class="box-good">2.4 GHz<br />5 GHz</td>
-			<td class="box-good">2.4 GHz<br />5 GHz</td>
-		</tr>
-		<tr>
-			<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
-			<td>450 (2.4 GHz)</td>
-			<td>450 (2.4 GHz)</td>
-			<td>450 (2.4 GHz)<br />1300 (5 GHz)</td>
-			<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
-			<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
-		</tr>
-		<tr>
-			<td>USB</td>
-			<td>1x USB2.0<br />außer v5</td>
-			<td>1x USB2.0</td>
-			<td>2x USB2.0<br /></td>
-			<td>&#x2717;</td>
-			<td>&#x2717;</td>
-		</tr>
-		<tr>
-			<td>Preiserwartung</td>
-			<td><a href="https://geizhals.de/tp-link-tl-wr1043n-a1704211.html">€ 35</a></td>
-			<td><a href="https://geizhals.de/avm-fritz-box-4020-20002713-a1244179.html">€ 45 </a></td>
-			<td><a href="https://geizhals.de/tp-link-archer-c7-diverse-revisionen-a923544.html">€ 80</a></td>
-			<td><a href="https://geizhals.de/ubiquiti-unifi-ap-ac-lite-uap-ac-lite-a1325765.html">€ 75</a></td>
-			<td><a href="https://geizhals.de/ubiquiti-unifi-ac-mesh-uap-ac-m-a1547488.html">€ 85</a></td>
-		</tr>
-		<tr>
-			<td>Installation via</td>
-			<td class="box-good"><a href="https://wiki.darmstadt.freifunk.net/Router_Flashen">Webinterface</a></td>
-			<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
-			<td class="box-good"><a href="https://wiki.darmstadt.freifunk.net/Router_Flashen">Webinterface</a></td>
-			<td class="box-warn"><a href="https://wiki.darmstadt.freifunk.net/Unifi_AC">SSH</a></td>
-			<td class="box-warn"><a href="https://wiki.darmstadt.freifunk.net/Unifi_AC">SSH</a></td>
-		</tr>
-	</table>
-</div>
-<div class="box box-after-oversized">
+
 	<p>Eine vollständige Liste aller unterstützter Geräte findest Du <a href="https://firmware.darmstadt.freifunk.net/">auf unserer Firmware-Seite</a>.
 
 	Für Richtfunkstrecken lässt sich schwer eine pauschale Empfehlung geben, das ist stark von den lokalen Gegebenheiten abhängig. Komm am besten zu unseren <a href="/kontakt/">Treffen</a> vorbei, dann können wir individuell darauf eingehen.</p>
 
-	<p>Die Hardware-Illustrationen stammen von <a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a> und stehen unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a> Lizenz.</p>
-
-</div>
-<div class="box box-before-oversized">
-	<h3>Testing-Hardware</h3>
-	<p>Für erfahrene und technikverliebte Nutzer haben wir Unterstützung für sehr moderne Hardware im testing Branch. Diese kann mitunter Fehler enthalten, es gelten daher die üblichen Warnungen zu experimenteller Firmware.</p>
+	<p>Je nach Geldbeutel und Installationsort eignen sich verschiedene Geräte, für die folgende Auswahl ist Zukunftssicherheit die gemeinsame Basis:</p>
 </div>
 <div class="box-oversized">
-	<table class="recommendations">
-		<tr>
-			<td>Abbildung</td>
-			<td><!--<img alt="Netgear EX6150" src="/images/routers/ex6150.svg">--></td>
-			<td><!--<img alt="ZyXEL NBG6617" src="/images/routers/nbg6617.svg">--></td>
-			<td><img alt="AVM FRITZ!Box 4040" src="/images/routers/fritz4040.svg"></td>
-			<td><!--<img alt="GL.iNet GL-B1300" src="/images/routers/gl-b1300.svg">--></td>
-		</tr>
-		<tr>
-			<td>Hersteller</td>
-			<td>Netgear</td>
-			<td>ZyXEL</td>
-			<td>AVM</td>
-			<td>Gl.iNet</td>
-		</tr>
-		<tr>
-			<td>Modell</td>
-			<td>EX6150 v2</td>
-			<td>NBG6617</td>
-			<td>FRITZ!Box 4040</td>
-			<td>GL-B1300</td>
-		</tr>
-		<tr>
-			<td>Eignung</td>
-			<td>Indoor</td>
-			<td>Indoor</td>
-			<td>Indoor</td>
-			<td>Indoor</td>
-		</tr>
-		<tr>
-			<td>Stromversorgung</td>
-			<td>integriertes Netzteil</td>
-			<td>Netzteil</td>
-			<td>Netzteil</td>
-			<td>Netzteil</td>
-		</tr>
-		<tr>
-			<td>CPU</td>
-			<td class="box-good">4x717 MHz<br />ARMv7</td>
-			<td class="box-good">4x717 MHz<br />ARMv7</td>
-			<td class="box-good">4x717 MHz<br />ARMv7</td>
-			<td class="box-good">4x717 MHz<br />ARMv7</td>
-		</tr>
-		<tr>
-			<td>RAM</td>
-			<td class="box-good">256 MB</td>
-			<td class="box-good">256 MB</td>
-			<td class="box-good">256 MB</td>
-			<td class="box-good">256 MB</td>
-		</tr>
-		<tr>
-			<td>Flash</td>
-			<td class="box-good">16 MB</td>
-			<td class="box-good">32 MB</td>
-			<td class="box-good">32 MB</td>
-			<td class="box-good">32 MB</td>
-		</tr>
-		<tr>
-			<td>Wi-Fi Standard</td>
-			<td class="box-good">802.11ac (Wave2)</td>
-			<td class="box-good">802.11ac (Wave2)</td>
-			<td class="box-good">802.11ac (Wave2)</td>
-			<td class="box-good">802.11ac (Wave2)</td>
-		</tr>
-		<tr>
-			<td>Frequenzbänder</td>
-			<td>2.4 GHz / 5 GHz</td>
-			<td>2.4 GHz / 5 GHz</td>
-			<td>2.4 GHz / 5 GHz</td>
-			<td>2.4 GHz / 5 GHz</td>
-		</tr>
-		<tr>
-			<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
-			<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
-			<td>300 (2.4 GHz)<br />867 (5 Ghz)</td>
-			<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
-			<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
-		</tr>
-		<tr>
-			<td>USB</td>
-			<td>&#x2717;</td>
-			<td>1x USB3.0</td>
-			<td>1x USB3.0<br />1x USB2.0</td>
-			<td>1x USB3.0</td>
-		</tr>
-		<tr>
-			<td>Preiserwartung</td>
-			<td><a href="https://geizhals.de/netgear-wi-fi-range-extender-ex6150-ex6150-100pes-a1232062.html">€ 54</a></td>
-			<td><a href="https://geizhals.de/zyxel-nbg6617-nbg6617-eu0101f-a1519895.html">€ 65</a></td>
-			<td><a href="https://geizhals.de/avm-fritz-box-4040-20002763-a1501050.html">€ 70</a></td>
-			<td><a href="https://geizhals.de/gl-inet-gl-b1300-a1812653.html">€ 89</a></td>
-		</tr>
-		<tr>
-			<td>Installation via</td>
-			<td class="box-good"><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=970f1914be3f299fb302ca74a214589397000858">Webinterface</a></td>
-			<td class="box-good"><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=82618062cf7ed6b40d2c52c6f6b96364888ffda6">Webinterface</a></td>
-			<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
-			<td class="box-good"><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=04d3308b6248ef21a6f0bc3378b342906c2d2865">Webinterface</a></td>
-		</tr>
-	</table>
-</div>
+	<div id="tabs">
+		<ul>
+			<li><a href="#tabs-indoor">&#x1F3E0; Indoor</a></li>
+			<li><a href="#tabs-outdoor">&#x1F327; Outdoor</a></li>
+			<li><a href="#tabs-lowcost">&#x1F4B0; Erschwinglich</a></li>
+			<li><a href="#tabs-experimental">&#x1F6A7; Experimentell</a></li>
+		</ul>
+		<div id="tabs-indoor">
+			<p class="tabs-description">
+				Unsere gängigen Empfehlungen für den Betrieb moderner Hardware im Innenraum.
+			</p>
+			<table class="recommendations">
+				<tr>
+					<td>Abbildung</td>
+					<td><!--<img alt="Netgear EX6150" src="/images/routers/ex6150.svg">--></td>
+					<td><!--<img alt="ZyXEL NBG6617" src="/images/routers/nbg6617.svg">--></td>
+					<td><img alt="AVM FRITZ!Box 4040" src="/images/routers/fritz4040.svg"></td>
+					<td><img alt="Ubiquiti Unifi AP AC-Lite" src="/images/routers/unifi_ac_lite.svg"></td>
+					<td><!--<img alt="GL.iNet GL-B1300" src="/images/routers/gl-b1300.svg">--></td>
+				</tr>
+				<tr>
+					<td>Hersteller</td>
+					<td>Netgear</td>
+					<td>ZyXEL</td>
+					<td>AVM</td>
+					<td>Ubiquiti</td>
+					<td>Gl.iNet</td>
+				</tr>
+				<tr>
+					<td>Modell</td>
+					<td>EX6150 v2</td>
+					<td>NBG6617</td>
+					<td>FRITZ!Box 4040</td>
+					<td>Unifi AC Lite</td>
+					<td>GL-B1300</td>
+				</tr>
+				<tr>
+					<td>Stromversorgung</td>
+					<td>integriertes Netzteil</td>
+					<td>Netzteil</td>
+					<td>Netzteil</td>
+					<td>PoE Injektor<br />802.3af</td>
+					<td>Netzteil</td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td class="box-good">4x717 MHz<br />ARMv7</td>
+					<td class="box-good">4x717 MHz<br />ARMv7</td>
+					<td class="box-good">4x717 MHz<br />ARMv7</td>
+					<td>1x750 MHz<br />MIPS 74Kc</td>
+					<td class="box-good">4x717 MHz<br />ARMv7</td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td class="box-good">256 MB</td>
+					<td class="box-good">256 MB</td>
+					<td class="box-good">256 MB</td>
+					<td>128 MB</td>
+					<td class="box-good">256 MB</td>
+				</tr>
+				<tr>
+					<td>Flash</td>
+					<td class="box-good">16 MB</td>
+					<td class="box-good">32 MB</td>
+					<td class="box-good">32 MB</td>
+					<td>16 MB<br />(8 MB nutzbar)</td>
+					<td class="box-good">32 MB</td>
+				</tr>
+				<tr>
+					<td>Wi-Fi Standard</td>
+					<td class="box-good">802.11ac (Wave2)</td>
+					<td class="box-good">802.11ac (Wave2)</td>
+					<td class="box-good">802.11ac (Wave2)</td>
+					<td>802.11ac (Wave1)</td>
+					<td class="box-good">802.11ac (Wave2)</td>
+				</tr>
+				<tr>
+					<td>Frequenzbänder</td>
+					<td>2.4 GHz / 5 GHz</td>
+					<td>2.4 GHz / 5 GHz</td>
+					<td>2.4 GHz / 5 GHz</td>
+					<td>2.4 GHz / 5 GHz</td>
+					<td>2.4 GHz / 5 GHz</td>
+				</tr>
+				<tr>
+					<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
+					<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
+					<td>300 (2.4 GHz)<br />867 (5 Ghz)</td>
+					<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
+					<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
+					<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
+				</tr>
+				<tr>
+					<td>USB</td>
+					<td>&#x2717;</td>
+					<td>1x USB3.0</td>
+					<td>1x USB3.0<br />1x USB2.0</td>
+					<td>&#x2717;</td>
+					<td>1x USB3.0</td>
+				</tr>
+				<tr>
+					<td>Neupreis</td>
+					<td><a href="https://geizhals.de/netgear-wi-fi-range-extender-ex6150-ex6150-100pes-a1232062.html">€ 54</a></td>
+					<td><a href="https://geizhals.de/zyxel-nbg6617-nbg6617-eu0101f-a1519895.html">€ 65</a></td>
+					<td><a href="https://geizhals.de/avm-fritz-box-4040-20002763-a1501050.html">€ 70</a></td>
+					<td><a href="https://geizhals.de/ubiquiti-unifi-ap-ac-lite-uap-ac-lite-a1325765.html">75 €</a></td>
+					<td><a href="https://geizhals.de/gl-inet-gl-b1300-a1812653.html">€ 89</a></td>
+				</tr>
+				<tr>
+					<td>Installation via</td>
+					<td class="box-good"><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=970f1914be3f299fb302ca74a214589397000858">Webinterface</a></td>
+					<td class="box-good"><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=82618062cf7ed6b40d2c52c6f6b96364888ffda6">Webinterface</a></td>
+					<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
+					<td class="box-warn"><a href="https://wiki.darmstadt.freifunk.net/Unifi_AC">SSH</a></td>
+					<td><a href="https://git.openwrt.org/?p=openwrt/openwrt.git;a=commit;h=04d3308b6248ef21a6f0bc3378b342906c2d2865">Webinterface</a><br />(im Bootloader)</td>
+				</tr>
+			</table>
+		</div>
+		<div id="tabs-outdoor">
+			<p class="tabs-description">
+				Für eine brauchbare Außenabdeckung muss ein Router Wind und Wetter trotzen können, diese Geräte sind darauf hinreichend vorbereitet.
+			</p>
+			<table class="recommendations">
+				<tr>
+					<td>Abbildung</td>
+					<td><img alt="Ubiquiti Unifi AC Mesh" src="/images/routers/unifi_ac_mesh.svg"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Hersteller</td>
+					<td>Ubiquiti</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Modell</td>
+					<td>UniFi AC Mesh</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Stromversorgung</td>
+					<td>PoE Injektor<br />802.3af</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td>1x750 MHz<br />MIPS 74Kc</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td>128 MB</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Flash</td>
+					<td>16 MB<br />(8 MB nutzbar)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Wi-Fi Standard</td>
+					<td>802.11ac (Wave1)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Frequenzbänder</td>
+					<td class="box-good">2.4 GHz<br />5 GHz</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
+					<td>300 (2.4 GHz)<br />867 (5 GHz)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>USB</td>
+					<td>&#x2717;</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Neupreis</td>
+					<td><a href="https://geizhals.de/ubiquiti-unifi-ac-mesh-uap-ac-m-a1547488.html">€ 85</a></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Installation via</td>
+					<td class="box-warn"><a href="https://wiki.darmstadt.freifunk.net/Unifi_AC">SSH</a></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div id="tabs-lowcost">
+			<p class="tabs-description">
+				Geräte welche teilweise nur auf dem Gebrauchtmarkt zu akzeptablen Preisen verfügbar sind. Sie sind zwar technologisch überholt, es sind uns jedoch keine bekannten Unzulänglichkeiten bekannt.
+			</p>
+			<table class="recommendations">
+				<tr>
+					<td>Abbildung</td>
+					<td><!--<img alt="AVM FRITZ!Repeater 300E" src="/images/routers/fritz300e.svg" />--></td>
+					<td><img alt="TP-Link TL-WR1043N/ND v2/v3/v4/v5" src="/images/routers/wr1043nd.svg" /></td>
+					<td><!--<img alt="AVM FRITZ!WLAN Repeater 450E" src="/images/routers/fritz4503.svg">--></td>
+					<td><img alt="AVM FRITZ!Box 4020" src="/images/routers/fritz4020.svg" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Hersteller</td>
+					<td>AVM</td>
+					<td>TP-Link</td>
+					<td>AVM</td>
+					<td>AVM</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Modell</td>
+					<td>FRITZ!WLAN Repeater 300E</td>
+					<td>TL-WR1043N/ND<br />v2/v3/v4/v5</td>
+					<td>FRITZ!WLAN Repeater 450E</td>
+					<td>FRITZ!Box 4020</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Stromversorgung</td>
+					<td>integriertes Netzteil</td>
+					<td>Netzteil</td>
+					<td>integriertes Netzteil</td>
+					<td>Netzteil</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td class="box-warn">1x400 MHz<br />MIPS 74Kc</td>
+					<td>1x750 MHz<br />MIPS 74Kc</td>
+					<td>1x560 MHz<br />MIPS 74Kc</td>
+					<td>1x750 MHz<br />MIPS 74Kc</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td>64 MB</td>
+					<td>64 MB</td>
+					<td>64 MB</td>
+					<td class="box-good">128 MB</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Flash</td>
+					<td class="box-good">16 MB</td>
+					<td>8 MB</td>
+					<td class="box-good">16 MB</td>
+					<td class="box-good">16 MB</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Wi-Fi Standard</td>
+					<td class="box-warn">802.11n</td>
+					<td class="box-warn">802.11n</td>
+					<td class="box-warn">802.11n</td>
+					<td class="box-warn">802.11n</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Frequenzbänder</td>
+					<td>2.4 GHz</td>
+					<td>2.4 GHz</td>
+					<td>2.4 GHz</td>
+					<td>2.4 GHz</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
+					<td>300 (2.4 GHz)</td>
+					<td>450 (2.4 GHz)</td>
+					<td>450 (2.4 GHz)</td>
+					<td>450 (2.4 GHz)</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>USB</td>
+					<td>&#x2717;</td>
+					<td>1x USB2.0<br />außer v5</td>
+					<td>&#x2717;</td>
+					<td>(1x USB2.0)<br />nicht unterstützt</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Neupreis</td>
+					<td>&#x2717;</td>
+					<td>&#x2717;</td>
+					<td><a href="https://geizhals.de/avm-fritz-wlan-repeater-450e-20002589-a1065058.html">€ 37</a></td>
+					<td><a href="https://geizhals.de/avm-fritz-box-4020-20002713-a1244179.html">€ 45 </a></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Gebrauchtpreis</td>
+					<td>max. € 20</td>
+					<td>max. € 30</td>
+					<td>max. € 30</td>
+					<td>max. € 30</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Installation via</td>
+					<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
+					<td class="box-good"><a href="https://wiki.darmstadt.freifunk.net/Router_Flashen">Webinterface</a></td>
+					<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
+					<td><a href="https://fritz-tools.readthedocs.io/de/latest/flashing/general.html">FTP</a></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+		<div id="tabs-experimental">
+			<p class="tabs-description">
+				Für erfahrene und technikverliebte Nutzer haben wir mitunter Unterstützung für sehr moderne Hardware im <code>testing</code> Branch. Diese kann unter Umständen Fehler enthalten, es gelten daher die üblichen Warnungen zu experimenteller Firmware.
+			</p>
 
+			<table class="recommendations">
+				<tr>
+					<td>Abbildung</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Hersteller</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Modell</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Stromversorgung</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>CPU</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>RAM</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Flash</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Wi-Fi Standard</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Frequenzbänder</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>WLAN-Datenrate,<br/>bis zu (MBit/s)</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>USB</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Neupreis</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Installation via</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<div class="box box-after-oversized">
+	<p>Die Hardware-Illustrationen stammen von <a href="https://github.com/Moorviper/Freifunk-Router-Anleitungen">Daniel Krah</a> und stehen unter einer <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a> Lizenz.</p>
+</div>
+</div>
