@@ -24,32 +24,16 @@ Für Spenden sollte hierbei im *Verwendungszweck "Freifunk"* vermerkt sein. Fall
 
 ## Förderung durch Online-Shopping
 
-<script>
-  var fileref = document.createElement("link");
-  fileref.setAttribute("rel", "stylesheet");
-  fileref.setAttribute("type", "text/css");
-  fileref.setAttribute("href", "https://www.boost-project.com/assets/button.css");
-  document.getElementsByTagName("head")[0].appendChild(fileref);
-</script>
 <div style="float:right">
-  <a class="boost-button-weroiby1" target="_blank" href="https://www.boost-project.com/de/shops?charity_id=3433&tag=bb">Unterstütze uns mit deinem Online-Einkauf<br>
-  <span style='font-weight:normal;'>ohne Extrakosten</span>
-  </a>
+  <!-- Anfang WeCanHelp -->
+  <iframe height="150" width="200" src="https://www.bildungsspender.org/extern/wch/spendenstandbanner.php?kt=464293002&url=464293002" scrolling="no" frameborder="0"> </iframe><br/>
+  <!-- Ende WeCanHelp -->
 </div>
 
-Durch das [boost-Project](https://www.boost-project.com/de/charities/3433) kannst du uns mit Käufen in zahlreichen Online-Shops, wie u.a.
-[Alternate](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=472),
-[Conrad](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=297),
-[Deutsche Bahn](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=611),
-[ELV](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=176),
-[Lieferando](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=52),
-[Meinfernbus](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=616),
-[redcoon](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=29),
-[Reichelt](https://www.boost-project.com/de/referals?referal%5Bcharity_id%5D=3433&referal%5Bshop_id%5D=295),
-[und vielen anderen](https://www.boost-project.com/de/shops?charity_id=3433&tag=bl) unterstützen!
+Durch [WeCanHelp](https://www.wecanhelp.de/464293002/shopsearch) kannst du uns mit Käufen in zahlreichen Online-Shops unterstützen!
 
-Besuche dazu einfach den jeweiligen Shop über den nebenstehenden Button und tätige wie gewohnt deinen Einkauf.
-Es fallen dabei keine Extrakosten an, wir erhalten lediglich eine Provision, welche über sog. [Affiliate](https://de.wikipedia.org/wiki/Affiliate-Marketing)-Links generiert wird.
+Besuche dazu einfach den jeweiligen Shop über den nebenstehenden Button und tätige wie gewohnt deinen Einkauf. Es fallen dabei keine Extrakosten an, 
+wir erhalten lediglich eine Provision, welche über sog. [Affiliate](https://de.wikipedia.org/wiki/Affiliate-Marketing)-Links generiert wird.
 
 ## Spendenformular
 
