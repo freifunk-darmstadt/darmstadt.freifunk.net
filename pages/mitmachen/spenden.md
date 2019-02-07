@@ -7,14 +7,14 @@ sub_weight: 6
 permalink: /mitmachen/spenden/
 ---
 
-Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich für ein stadtübergreifendes WLAN-Netzwerk ein und unterstützen interessierte Personen gerne mit unseren bisherigen Erfahrungen, die wir dabei gesammelt haben.
+Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Computer Club Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich für ein stadtübergreifendes WLAN-Netzwerk ein und unterstützen interessierte Personen gerne mit unseren bisherigen Erfahrungen, die wir dabei gesammelt haben.
 
 ## Direkt per Überweisung
 
-Am einfachsten kannst Du uns Deine Spende direkt via Überweisung an das Bankkonto des Chaos Darmstadt e.V. überweisen:
+Am einfachsten kannst Du uns Deine Spende direkt via Überweisung an das Bankkonto des Chaos Computer Club Darmstadt e.V. überweisen:
 
 <blockquote>
-  Chaos Darmstadt e.V.<br/>
+  Chaos Computer Club Darmstadt e.V.<br/>
   IBAN: DE47 5089 0000 0064 3445 01<br/>
   BIC: GENODEF1VBD<br/>
   Volksbank Darmstadt - Südhessen eG
