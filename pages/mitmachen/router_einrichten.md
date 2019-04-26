@@ -39,8 +39,8 @@ Dein Router sollte nun in den Konfigurationsmodus starten. Du erhälst erneut IP
 5. Nach einem Klick auf `Speichern und Neustarten` siehst du den Öffentlichen Schlüssel für den VPN-Zugang. Diesen sendest du bitte per E-Mail an [keys@darmstadt.freifunk.net](mailto:keys@darmstadt.freifunk.net).
 
 	> &#35; PLZ-Wahlname \\
-	> &#35; lambda
-	> &#35; a1:01:00:ab:cd:ee
+	> &#35; lambda \\
+	> &#35; a1:01:00:ab:cd:ee \\
 	> key "f1d2d2f924e986ac86fdf7b36c94bcdf32beec15";
 
 Danach startet der Router neu, sendet das WLAN `darmstadt.freifunk.net` aus und versucht sich per Mesh mit anderen Nachbarn zu verbinden. Falls du keine Mesh-Nachbarn hast, ist eine Verbindung mit dem WLAN-Netzwerk erst dann möglich, sobald der Schlüssel auf den Gateways eingetragen wurde. Darüber informieren wir dich zeitnah mit einer Begrüßungs-Email.
