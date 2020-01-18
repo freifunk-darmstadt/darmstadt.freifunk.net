@@ -7,7 +7,7 @@ sub_weight: 4
 permalink: /mitmachen/router-einrichten/
 ---
 Diese Anleitung richtet sich an TP-Link Geräte.
-Solltest du einen Ubiquiti UniFi AP besitzen, findest du [hier](https://wiki.darmstadt.freifunk.net/Unifi_AC_flashen) die nötigen Schritte.
+Solltest du einen Ubiquiti UniFi AP besitzen, findest du [hier](https://forum.darmstadt.freifunk.net/t/unifi-ap-erstinstallation/790)) die nötigen Schritte.
 Für einen AVM Router/Repeater findest du die nötigen Schritte [hier](https://fritz-tools.readthedocs.io/de/latest/).
 
 ### Den Router anschließen
