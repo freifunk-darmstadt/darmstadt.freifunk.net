@@ -6,6 +6,7 @@ categories: community
 ---
 Angesichts der aktuellen Ausbreitung von COVID-19 sagen wir alle unsere öffentlichen Veranstaltungen bis auf Weiteres ab.
 
+<!--*-->
 
 Nachdem der Chaos Darmstadt unseren Treffpunkt (W17) in der Wilhelminenstrasse 17 vorsorglich geschlossen haben, möchten wir darauf hinweisen, dass aktuell keine persönlichen Treffen stattfinden.
 Aktuell überlegen wir an einer Lösung für ein virtuelles Treffen.
