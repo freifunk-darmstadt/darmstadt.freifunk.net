@@ -1,0 +1,38 @@
+﻿---
+layout: post
+title: "Firmwareversion 2.0.1 ausgerollt"
+date: 2020-03-15 14:00:00
+categories: community
+---
+Die Firmwareversion 2.0.1 wurde erfolgreich ausgerollt. Bitte prüft, ob Ihr eventuell noch veraltete Hardware im Einsatz habt.
+
+<!--*-->
+
+Am 21.3.2020 1:35 wurde die neue Firmwareversion 2.0.1 auf alle Router von Freifunk Darmstat ausrollen. 
+
+Damit sind die Funktionen, welche bereits mit der Version 2.0.0 eingeführt werden sollten nun für alle Knoten in unserem Netz ausgerollt worden.
+
+Damit haben zum ersten mal Knoten mit veralteter Hardware [1], ein Update nicht bekommen.
+Diese Geräte bleiben mit der alten Firmware Teil des Netzes von Freifunk Darmstadt, bis eine erste kritische Sicherheitslücke auffällt. 
+Wir empfehlen nochmals dringend ein Upgrade auf ein aktuelles Gerät. [2]
+
+Konkret ändern sich folgende Punkte:
+    • Abkündigung von Geräten mit 4 MB Flash und 32 MB RAM 
+    • Verschiedene Updates auf neue Softwareversionen (z.B. Gluon und OpenWRT)
+    • bessere Stabilität bei einigen Geräten
+Die ausführlichen Releasenotes findet Ihr im Forum [3], [4]  
+
+Wir möchten die Gelegenheit nutzen, uns bei allen Unterstützern, insbesondere auch bei den Entwicklern der neuen Softwareversion, für Ihren Einsatz zu bedanken.
+
+Viele Grüße
+
+Eure Darmstädter Freifunker
+
+[1] https://darmstadt.freifunk.net/news/2018/05/16/eol-devices.html
+[2] https://darmstadt.freifunk.net/mitmachen/unterstuetzte-geraete/
+[3] https://forum.darmstadt.freifunk.net/t/2-0-0-gluon-v2020-1/837
+[4] https://forum.darmstadt.freifunk.net/t/2-0-1-gluon-v2020-1-1/838
+
+ 
+
+
