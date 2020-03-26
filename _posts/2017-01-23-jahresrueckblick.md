@@ -10,7 +10,7 @@ Am 19. Februar 2016 konnten wir in der Oettinger Villa mit unserer 1K300 Party d
 
 <!--*-->
 
-Die tatsächliche Gesamtzahl an aktiven Nutzern ist uns übrigens gar nicht bekannt, da wir gemäß dem Prinzip der Datensparsamkeit keine Informationen über wiederkehrende Nutzer speichern. [Das Darmstädter Echo berichtete.](http://www.echo-online.de/lokales/darmstadt/weiterknuepfen-am-offenen-wlan-netz_16661770.htm)
+Die tatsächliche Gesamtzahl an aktiven Nutzern ist uns übrigens gar nicht bekannt, da wir gemäß dem Prinzip der Datensparsamkeit keine Informationen über wiederkehrende Nutzer speichern. 
 
 Nur wenig später, am 16. März 2016, verlieh der Magistrat der Stadt Darmstadt fünf unserer Aktiven, stellvertretend für Freifunk Darmstadt, die Ehrenurkunde der Stadt Darmstadt für verdiente Bürgerinnen und Bürger. Die Übergabe fand am 25. April 2016 in [feierlichem Rahmen in der Orangerie statt](/news/2016/04/26/ehrenurkunde.html).
 
@@ -23,7 +23,7 @@ Unser NOC Team hat monatelang viele Nächte geopfert, um die Automatisierung und
 Im Juli 2016 sprach uns das Wirtschaftsministeriums des Landes Hessen seinen [Dank und Lob](https://twitter.com/FreifunkDA/status/755153530877517824) aus. Zusätzlich sprach uns der Leiter der Öffentlichkeitsarbeit bei der Berufsfeuerwehr Darmstadt seinen Dank für die professionelle Arbeit im Rahmen der Versorgung der Unterkünfte für Geflüchtete aus.
 
 Insgesamt wurden in der Stadt Darmstadt, im Landkreis Darmstadt-Dieburg sowie im Kreis Groß-Gerau 40 Flüchtlingsunterkünfte von und mit Freifunk Darmstadt an das Netz angeschlossen. Mit den zahlreich geleisteten Arbeitsstunden konnte so auch die Kooperation mit den Landkreisen bzw. Kommunen weiter ausgebaut werden. Denn nicht nur Geflüchtete wollen (und müssen) mit Barriere- sowie Gebührenfreien Netzzugang versorgt werden.
-Freifunk wird bereits aktiv in [Groß-Umstadt](http://www.gross-umstadt.de/de/1475131138-freies-wlan-auf-dem-umstaedter-marktplatz), Rossdorf, Otzberg, [Büttelborn](http://www.echo-online.de/lokales/kreis-gross-gerau/buettelborn/glb-zielt-auf-kostenloses-surfen-am-rathaus_16586433.htm) und Babenhausen ausgebaut. Seit den ersten Gesprächen mit Achim Knoke, dem Bürgermeister von Babenhausen, im Jahr 2015, wurden im letzten Jahr von ihm, in Eigeninitative, über 40 Knoten in Betrieb genommen. Babenhausen betreibt auch schon eine eigene Webseite für den [örtlichen Freifunk](https://freifunk.babenhausen.de/historie/).
+Freifunk wird bereits aktiv in Groß-Umstadt, Rossdorf, Otzberg, Büttelborn und Babenhausen ausgebaut. Seit den ersten Gesprächen mit Achim Knoke, dem Bürgermeister von Babenhausen, im Jahr 2015, wurden im letzten Jahr von ihm, in Eigeninitative, über 40 Knoten in Betrieb genommen. Babenhausen betreibt auch schon eine eigene Webseite für den [örtlichen Freifunk](https://freifunk.babenhausen.de/historie/).
 
 Zudem werden Dieburg und Weiterstadt zukünftig Freifunk einsetzen, um öffentliche Plätze zu versorgen. Weitere Gemeinden im Landkreis Darmstadt-Dieburg und Kreis Groß-Gerau werden in 2017 folgen, denn die Gespräche laufen schon. Nach dem Kreistagsbeschluss im Kreis Groß-Gerau begleitet man dort unser Engagement positiv und will uns aktiv unterstützen.
 Zusätzlich wurde durch privates Engagement der Freifunk Ausbau in Gernsheim, Seeheim-Jugenheim, Griesheim, Gräfenhausen (Weiterstadt), Michelstadt und natürlich in der Stadt Darmstadt massiv vorangetrieben.

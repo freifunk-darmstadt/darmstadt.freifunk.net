@@ -91,4 +91,4 @@ Darüber hinaus haben wir beobachtet, dass Geräte mit 8MB Flash-Speicher besond
 
 In der Firmware wurden zwischenzeitlich Massnahmen getroffen, dieses Problem einzudämmen, es ist jedoch schwer einzuschätzen, wie lange dies in der Zukunft noch möglich sein wird.
 
-Bei weiteren Fragen, melde dich am besten [bei uns im Forum](https://forum.darmstadt.freifunk.net/t/supportende-fur-bestimmte-gerate/444) oder komm zu unserem [wöchentlichen Treffen](https://darmstadt.freifunk.net/kontakt/) vorbei!
+Bei weiteren Fragen, melde dich am besten [bei uns im Forum](https://forum.darmstadt.freifunk.net/t/supportende-fur-bestimmte-gerate/444) oder komm zu unserem [Treffen](https://darmstadt.freifunk.net/kontakt/) vorbei!
