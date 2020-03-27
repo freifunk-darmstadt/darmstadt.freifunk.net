@@ -57,9 +57,9 @@ Mangement Frame Protection ist ein relativ neues Feature, welches erst mit 802.1
 
 Management Frame Protection kann entweder optional oder Voraussetzung für eine Clientverbindung sein. Bei WPA3 empfiehlt es sich, Managemen Frame Protection verpflichtend zu aktivieren. Solltest du ausschließlich WPA2 oder WPA2/WPA3 im gemeinsamen Modus verwenden, so ist es empfehlenswert, Management Frame Protection optional zu aktivieren.
 
-## WPA3 Enhanced Open (OWE)
+## Enhanced Open (OWE)
 
-Zusätzlich zu den Verbesserungen für euer privates Netz testen wir mit der aktuellen Firmware WPA3 Enhanced Open für das Freifunk-Client-Netz. Hiermit wird erstmals der Datenverkehr zwischen Access Point und Client im Freifunk-Netz gegen passives Mitlesen abgesichert. WPA3 Enhanced Open verwendet ebenfalls Management Frame Protection um die Verbindung vor unautorisiertem Beenden zu schützen.
+Zusätzlich zu den Verbesserungen für euer privates Netz testen wir mit der aktuellen Firmware Enhanced Open für das Freifunk-Client-Netz. Hiermit wird erstmals der Datenverkehr zwischen Access Point und Client im Freifunk-Netz gegen passives Mitlesen abgesichert. Enhanced Open verwendet ebenfalls Management Frame Protection um die Verbindung vor unautorisiertem Beenden zu schützen.
 
 Enhanced Open wird bei uns mit der SSID (WLAN Name) `owe.darmstadt.freifunk.net` ausgestrahlt. OWE steht hierbei für Opportunistic Wireless Encryption.
 
@@ -67,7 +67,7 @@ Enhanced Open wird bei uns mit der SSID (WLAN Name) `owe.darmstadt.freifunk.net`
 
 Enhanced Open kann auch ohne sichtbare SSID ausgestrahlt werden. Hierbei enthält das unverschlüsselte Freifunk-Client-Netz im Beacon SSID und BSSID eines versteckten Enhanced Open Netzes. Kompatible Clients können sich dann automatisch zu diesem verschlüsselten Netz verbinden.
 
-Da WPA3 Enhanced Open aktuell noch von sehr wenigen Betriebsystemen unterstützt wird, verzichten wir vorerst auf diesen so genannten Transition Mode. Damit wird die Verschlüsselung mittels Enhanced Open vorerst Opt-In für alle.
+Da Enhanced Open aktuell noch von sehr wenigen Betriebsystemen unterstützt wird, verzichten wir vorerst auf diesen so genannten Transition Mode. Damit wird die Verschlüsselung mittels Enhanced Open vorerst Opt-In für alle.
 
 Enhanced Open wird aktuell von **Android** ab Version 10 vollständig unterstützt.
 
@@ -103,5 +103,5 @@ Geräte, deren Supportende vor mehr als 2 Jahren angekündigt wurden, unterstüt
 
 Da die beschriebenen Techniken sehr neu sind, würde es uns sehr Freuen wenn wenn du uns bei den Tests unterstützt und uns von deinen Erfahrungen mit WPA3 und Enhanced Open erzählst.
 
-Was hat im ersten Anlauf funktioniert? Gab es Probleme? Welche anderen Geräte unterstützen bereits WPA3 oder Enhanced Open? Deine Erfahrungen sind am besten im [Forenthread](FIXME) zu diesem Thema aufgehoben.
+Was hat im ersten Anlauf funktioniert? Gab es Probleme? Welche anderen Geräte unterstützen bereits WPA3 oder Enhanced Open? Deine Erfahrungen sind am besten im [Forenthread](https://forum.darmstadt.freifunk.net/t/wpa3-enhanced-open-kompatibalitaet-und-erfahrungen/846) zu diesem Thema aufgehoben.
 
