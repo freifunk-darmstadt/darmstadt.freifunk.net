@@ -40,7 +40,7 @@ Zuerst werden am kommenden Freitag (22.09.) gegen 10 Uhr eine kleine Anzahl an K
 
 ## Manuelle Migration
 
-Falls du schon heute in deine Zieldomain wechseln möchtest, kannst du dies einfach über den [Konfigurationsmodus](https://wiki.darmstadt.freifunk.net/Konfigurationsmodus) tun. Dort ist ab sofort ein Drop-Down-Menü mit der Domainauswahl zu finden.
+Falls du schon heute in deine Zieldomain wechseln möchtest, kannst du dies einfach über den [Konfigurationsmodus](https://darmstadt.freifunk.net/was-ist-freifunk/faq/#wie-kann-ich-nachtr%C3%A4glich-%C3%A4nderungen-am-router-vornehmen) tun. Dort ist ab sofort ein Drop-Down-Menü mit der Domainauswahl zu finden.
 
 ## Häufige Fragen
 ### Was passiert, sollte mein Freifunk-Knoten am Stichtag ausgeschaltet sein?
