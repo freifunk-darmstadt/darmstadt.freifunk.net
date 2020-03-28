@@ -73,7 +73,7 @@ Enhanced Open wird aktuell von **Android** ab Version 10 vollständig unterstüt
 
 **Windows 10**, **iOS** sowie **MacOS X** unterstützen in noch keinem Release WPA3 Enhanced Open.
 
-**Linux** unterstützt WPA3 Enhanced Open mit dem aktuellen hostapd. Die meisten Distributionen verwenden allerdings die Software NetworkManager zum verwalten der WLAN Netze. Für dieses Programm haben wir den Enhanced Open support [eingebaut](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/merge_requests/345), allerdings liefert noch keine Linux Distribution eine Version aus, welche Enhanced Open utnerstützt. Hiermit ist frühstens Mitte des Jahres zu rechnen.
+**Linux** unterstützt WPA3 Enhanced Open mit dem aktuellen hostapd. Die meisten Distributionen verwenden allerdings die Software NetworkManager zum verwalten der WLAN Netze. Für dieses Programm haben wir den Enhanced Open support [eingebaut](https://gitlab.freedesktop.org/NetworkManager/NetworkManager/-/merge_requests/345), allerdings liefert noch keine Linux Distribution eine Version aus, welche Enhanced Open unterstützt. Hiermit ist frühstens Mitte des Jahres zu rechnen.
 
 ## Allgemeine Hardwarevorraussetzungen
 
