@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 title: "Nächstes Treffen am 13. April 2020 findet über eine Jitsi Webkonferenz statt"
-date: 2020-03-15 14:00:00
+date: 2020-04-06 00:00:00
 categories: community
 ---
 Die Teilnahme ist über Jitsi der Münchner Freifunkplattform ([https://meet.ffmuc.net/FreifunkDarmstadtPlenum](https://meet.ffmuc.net/FreifunkDarmstadtPlenum)) möglich. 
