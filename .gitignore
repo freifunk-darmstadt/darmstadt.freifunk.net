@@ -1,6 +1,7 @@
-/_site
+/output
 /.sass-cache
 *.lock
 *.swp
 /.bundle
 /vendor
+/.jekyll-cache

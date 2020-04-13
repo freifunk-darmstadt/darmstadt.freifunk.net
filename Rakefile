@@ -1,7 +1,7 @@
 require 'html-proofer'
 
 task :build do
-  sh "bundle exec jekyll build"
+  sh "bundle exec jekyll build -d output"
 end
 
 task :serve do
@@ -9,10 +9,10 @@ task :serve do
 end
 
 task :htmlproofer do
-  HTMLProofer.check_directory("./_site",
-                    {:url_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/],
-                     :hydra => { :max_concurrency => 5 }
-  }).run
+  options = {:url_ignore => [/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/],
+             :hydra => { :max_concurrency => 5 },
+             :assume_extension => true}
+  HTMLProofer.check_directory("./output",options).run
 end
 
 task :trailing_spaces do
@@ -28,5 +28,5 @@ task :test => :build do
 end
 
 task :clean do
-  sh "bundle exec rm -R ./_site || true"
+  sh "bundle exec rm -R ./output || true"
 end
