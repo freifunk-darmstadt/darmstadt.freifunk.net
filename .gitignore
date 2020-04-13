@@ -4,3 +4,4 @@
 *.swp
 /.bundle
 /vendor
+/.jekyll-cache
