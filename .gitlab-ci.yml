@@ -12,17 +12,10 @@ build:
     - as8365
   stage: build
   image: jekyll/jekyll:latest
-  cache:
-    key: $CI_COMMIT_SHA
-    policy: push
-    paths:
-      - output
-      - publish
   script:
-    - jekyll build -d output
-  after_script:
-    - mkdir publish
-    - echo $CI_JOB_ID > publish/build_job_id
+    - bundle update
+    - rake build
+    - echo "$CI_JOB_ID" > output/build.txt
   artifacts:
     paths:
     - output
@@ -33,26 +26,16 @@ test:
   stage: test
   image: 18fgsa/html-proofer:gitlab-ci
   allow_failure: true
-  cache:
-    key: $CI_COMMIT_SHA
-    policy: pull
-    paths:
-      - output/
   script:
-    - htmlproofer ./output
+    - htmlproofer --url_ignore "/http(s?):\/\/(.*)\.ffda/, /^http:\/\/192\.168\..*/" --assume_extension ./output
 
 publish:
   tags:
     - as8365
   stage: publish
   image: appropriate/curl:latest
-  cache:
-    key: $CI_COMMIT_SHA
-    policy: pull
-    paths:
-      - publish/
-  only:
-    - master
+  rule:
+    - if: $CI_COMMIT_BRANCH == 'master'
   script:
-    - curl $DEPLOY_URL?$(cat publish/build_job_id)
+    - curl $DEPLOY_URL?$(cat output/build.txt)
 
