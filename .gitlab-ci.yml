@@ -34,7 +34,7 @@ publish:
     - as8365
   stage: publish
   image: appropriate/curl:latest
-  rule:
+  rules:
     - if: $CI_COMMIT_BRANCH == 'master'
   script:
     - curl $DEPLOY_URL?$(cat output/build.txt)
