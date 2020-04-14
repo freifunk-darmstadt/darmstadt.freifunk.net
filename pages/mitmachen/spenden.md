@@ -8,19 +8,25 @@ permalink: /mitmachen/spenden/
 ---
 
 Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Computer Club Darmstadt e.V.](https://www.chaos-darmstadt.de). Wir setzen uns ehrenamtlich für ein stadtübergreifendes WLAN-Netzwerk ein und unterstützen interessierte Personen gerne mit unseren bisherigen Erfahrungen, die wir dabei gesammelt haben.
+Unsere Freifunknetz wächst dank der intensiven Unterstützung durch freiwillige Knotenbetreiber seit Jahren. Dies erfolgt ausschließlich auf Basis freiwilliger Unterstützung vieler Menschen.
 
-## Direkt per Überweisung
-
-Am einfachsten kannst Du uns Deine Spende direkt via Überweisung an das Bankkonto des Chaos Computer Club Darmstadt e.V. überweisen:
+## Überweisung für den Betrieb an Freie Netze Südhessen e.V.
+Solltest Du Dich auch finanziell regelmäßigen oder einmaligen Spende zu unterstützenmöchtest, freuen wir uns über eine Spende an die Freie Netze Südhessen e.V.
+Am einfachsten kannst Du uns Deine Spende direkt per Dauerauftrag oder Überweisung an das Bankkonto des Freie Netze Südhessen e.V. vornehmen:
 
 <blockquote>
-  Chaos Computer Club Darmstadt e.V.<br/>
-  IBAN: DE47 5089 0000 0064 3445 01<br/>
+  Freie Netze Südhessen e.V.<br/>
+  DE68 5089 0000 0060 3774 05<br/>
   BIC: GENODEF1VBD<br/>
   Volksbank Darmstadt - Südhessen eG
 </blockquote>
 
-Für Spenden sollte hierbei im *Verwendungszweck "Freifunk"* vermerkt sein. Falls Du eine Spendenbescheinigungen benötigst, [wende Dich bitte an den Vorstand](https://git.darmstadt.ccc.de/vorstand/doku/blob/master/Spenden.md).
+Spenden sollten im Verwendungszweck den Hinweis enthalten, dass es sich um eine Spende handelt.
+
+Freifunk Darmstadt ist und bleibt kostenfrei und agiert ausschließlich auf Basis der freiwilligen Unterstützung. Durch die Nutzung entsteht für niemanden eine Zahlungsverpflichtung.
+Für die Spende an die Freie Netze Südhessen e.V. ist keine Austellung einer Spendenquittung möglich, da dem Verein die Gemeinnützigkeit fehlt.
+
+Solltet Ihr eine Spendenquittung benötigen, sprecht uns bitte direkt an.
 
 ## Förderung durch Online-Shopping
 
