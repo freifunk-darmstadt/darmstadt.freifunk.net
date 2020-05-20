@@ -19,7 +19,7 @@ build:
     - echo "$CI_JOB_ID" > output/build.txt
   artifacts:
     paths:
-    - output
+      - output
 
 test:
   tags:
