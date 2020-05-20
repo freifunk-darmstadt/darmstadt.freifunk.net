@@ -13,7 +13,7 @@ build:
   stage: build
   image: jekyll/jekyll:latest
   script:
-    - bundle update
+    - bundle update || true
     - rake build
     - echo "$CI_JOB_ID" > output/build.txt
   artifacts:
