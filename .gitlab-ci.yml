@@ -9,8 +9,7 @@ stages:
 
 build:
   tags:
-    - as8365
-    - as6766
+    - darmstadt
   stage: build
   image: jekyll/jekyll:latest
   script:
@@ -23,8 +22,7 @@ build:
 
 test:
   tags:
-    - as8365
-    - as6766
+    - darmstadt
   stage: test
   image: 18fgsa/html-proofer:gitlab-ci
   allow_failure: true
@@ -33,8 +31,7 @@ test:
 
 publish:
   tags:
-    - as8365
-    - as6766
+    - darmstadt
   stage: publish
   image: appropriate/curl:latest
   rules:
