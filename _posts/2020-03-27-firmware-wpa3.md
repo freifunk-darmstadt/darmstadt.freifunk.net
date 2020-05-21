@@ -5,13 +5,13 @@ date: 2020-03-27 00:00:00
 categories: community
 ---
 
-Mit unserer [aktuellen Firmware im testing Zweig](https://firmware.darmstadt.freifunk.net/) rollen wir gleich zwei neue Features aus, welche erstmals die im Freifunk Clientnetz übertragenen Daten gegen passives Mitlesen absichern und dein privates WLAN noch besser schützen.
+Mit unserer [aktuellen Firmware im testing Zweig](https://firmware.darmstadt.freifunk.net/) rollen wir gleich zwei neue Features aus, welche erstmals die im Freifunk Client-Netz übertragenen Daten gegen passives Mitlesen absichern und dein privates WLAN noch besser schützen.
 
 <!--*-->
 
 ## WPA3 für euer privates WLAN
 
-Die „Private WLAN“ Funktion der Freifunk Firmware unterstützt nun zusätzliche zu WPA2 die Verschlüsselug mittels [WPA3](https://de.wikipedia.org/wiki/Wi-Fi_Protected_Access). Dieser neue Standard sichert durch ein neues Schlüsseltauschverfahren dein WLAN Kennwort besser vor [Brute-Force Angriffen](https://de.wikipedia.org/wiki/Brute-Force-Methode).
+Die „Private WLAN“ Funktion der Freifunk Firmware unterstützt nun zusätzliche zu WPA2 die Verschlüsselung mittels [WPA3](https://de.wikipedia.org/wiki/Wi-Fi_Protected_Access). Dieser neue Standard sichert durch ein neues Schlüsseltauschverfahren dein WLAN Kennwort besser vor [Brute-Force Angriffen](https://de.wikipedia.org/wiki/Brute-Force-Methode).
 
 Angreifer können bei der ausschließlichen Verwendung von WPA3 keine Offline-Angriffe mehr durchführen. Offline bedeutet hier, dass auf den mitgeschnittenen Handshake keine [Brute-Force-](https://de.wikipedia.org/wiki/Brute-Force-Methode) oder [Wörterbuchangriffe](https://de.wikipedia.org/wiki/W%C3%B6rterbuchangriff) möglich sind.
 
@@ -35,7 +35,7 @@ Intel stellt hierfür eine [Übersicht auf ihrer Webseite bereit](https://www.in
 
 Für eine Qualcomm QCA6174/QCA9377 findest du den aktuellen Treiber auf der Seite [dieses OEM](https://support.killernetworking.com/download/killer-inf-package/).
 
-Die Realtek RTL8822BE/CE scheint ebenfalls WPA3 Kompatibalität aufzuweisen. Den Treiber hierfür erhälst du beim Hersteller deines Computers.
+Die Realtek RTL8822BE/CE scheint ebenfalls WPA3 Kompatibilität aufzuweisen. Den Treiber hierfür erhältst du beim Hersteller deines Computers.
 
 ### MacOS
 
@@ -47,7 +47,7 @@ Die meisten Linux Distributionen unterstützen WPA3 in aktuellen Releases. Bei [
 
 ## Management Frame Protection (802.11w)
 
-Mit WPA3 wird die Management Frame Protection zu einer Vorraussetzung. Mit MFP wird die WLAN-Verbindung vor Management-Frame-Attacken geschützt, bei denen ein Angreifer die WLAN-Verbindung zwischen Access Point und Client ohne Kenntnis des WLAN-Kennwortes trennen kann.
+Mit WPA3 wird die Management Frame Protection zu einer Voraussetzung. Mit MFP wird die WLAN-Verbindung vor Management-Frame-Attacken geschützt, bei denen ein Angreifer die WLAN-Verbindung zwischen Access Point und Client ohne Kenntnis des WLAN-Kennwortes trennen kann.
 
 Sollte der Angreifer das WLAN-Kennwort noch nicht kennen zwingt er bei dieser Attacke euren Client dazu, sich neu zu verbinden. Bei WPA2 erhält er dadurch einen weiteren Handshake der für einen Offline-Angriff herangezogen werden kann.
 
