@@ -18,52 +18,29 @@ top_url: /news/
   <header>
     <h2 class="post-title">{{ page.title }}</h2>
   </header>
-  <div class="row">
-    <div class="8u 12u(3)">
-      {% for post in site.posts %}
-      <div class="box">
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {% for post in site.posts %}
+  <div class="box">
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-          <h3>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
-          </h3>
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}.html">{{ post.title }}</a>
+      </h3>
 
-          <div class="post-content">
-            {{ post.content }}
-            {% include social.html post=post %}
-          </div>
+      <div class="post-content">
+        {{ post.content }}
+        {% include social.html post=post %}
       </div>
-      {% endfor %}
-      <p class="rss-subscribe">
-        <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
-        <span class="fa-stack fa-sm">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-rss fa-stack-1x"></i>
-        </span>
-        RSS-Feed abonnieren</a>
-      </p>
-    </div>
-    <div class="4u 12u(3)">
-      <div class="box">
-        <h3>Boosten</h3>
-        <p>Jetzt durch deinen Einkauf den Freifunk in Darmstadt und Umgebung boosten!</p>
-
-        <div style="text-align: center;">
-          <script>
-            var fileref = document.createElement("link");
-            fileref.setAttribute("rel", "stylesheet");
-            fileref.setAttribute("type", "text/css");
-            fileref.setAttribute("href", "https://www.boost-project.com/assets/button.css");
-            document.getElementsByTagName("head")[0].appendChild(fileref);
-          </script>
-          <a class="boost-button-weroiby1" target="_blank" href="https://www.boost-project.com/de/shops?charity_id=3433&tag=bb">Unterstütze uns mit deinem Online-Einkauf<br>
-          <span style='font-weight:normal;'>ohne Extrakosten</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
   </div>
+  {% endfor %}
+  <p class="rss-subscribe">
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+    <span class="fa-stack fa-sm">
+      <i class="fa fa-square-o fa-stack-2x"></i>
+      <i class="fa fa-rss fa-stack-1x"></i>
+    </span>
+    RSS-Feed abonnieren</a>
+  </p>
+
   </section>
 
   {% include footer.html %}
