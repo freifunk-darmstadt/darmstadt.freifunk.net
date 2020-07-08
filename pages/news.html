@@ -11,9 +11,8 @@ top_url: /news/
 <html>
 <head>
   {% include head.html %}
-  <script src="/js/netstate.js"></script>
 </head>
-<body onload="netstate_init()">
+<body>
   {% include header.html %}
   <section id="main" class="container">
   <header>
@@ -45,13 +44,6 @@ top_url: /news/
       </p>
     </div>
     <div class="4u 12u(3)">
-      <div class="box">
-        <h3>Statistik</h3>
-        <p id="net_state_loading"><span class="fa fa-refresh fa-spin"></span> Lade Statusdaten</p>
-        <ul>
-          <li><a href="/karte/">Freifunk-Knoten</a>: <span id="net_state_nodes">...</span></li>
-        </ul>
-      </div>
       <div class="box">
         <h3>Boosten</h3>
         <p>Jetzt durch deinen Einkauf den Freifunk in Darmstadt und Umgebung boosten!</p>
