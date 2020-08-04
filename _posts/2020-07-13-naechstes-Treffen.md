@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: "Nächstes Treffen am 10. Augist 2020"
+title: "Nächstes Treffen am 10. August 2020"
 date: 2020-07-13 00:00:00
 categories: community
 ---
