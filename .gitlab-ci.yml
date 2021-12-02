@@ -33,7 +33,7 @@ publish:
   tags:
     - darmstadt
   stage: publish
-  image: appropriate/curl:latest
+  image: curlimages/curl:latest
   rules:
     - if: $CI_COMMIT_BRANCH == 'master'
   script:
