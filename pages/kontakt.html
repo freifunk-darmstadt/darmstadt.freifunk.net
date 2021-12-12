@@ -51,20 +51,20 @@ layout:
         <p>
           Das Treffen findet im Raum <a href="https://meet.ffmuc.net/FreifunkDarmstadtPlenum">FreifunkDarmstadtPlenum</a> auf dem Jitsi Meet Server von Freifunk München statt. <br>
           Die Teilnahme ist mittels der Jitsi Apps, per Browser sowie über die Telefoneinwahl möglich.<br>
-        Im <a href="https://forum.darmstadt.freifunk.net/t/freifunk-treffen-am-13-april-2020-online/847">Forum</a> sind weitere Details zu finden.
+          Im <a href="https://forum.darmstadt.freifunk.net/t/freifunk-treffen-am-13-april-2020-online/847">Forum</a> sind weitere Details zu finden.
         </p>
-        
+
         <p>Bitte teste dein Setup im Vorfeld und mache Dich mit der Bedienung vertraut. Teste insbesondere auch die Qualität Deines Mikrofons, beispielsweise indem Du mit Freunden über dieses Medium testweise kommunizierst.
         Eine virtuelle Konferenz erfordert deutlich mehr Disziplin. Bitte schalte daher Dein Mikrofon stumm solange Du nicht sprechen möchtest.
         Sollte es Probleme geben ist Unser <a href="https://chat.darmstadt.freifunk.net">Chat</a> ein guter Ort um Kontakt aufzunehmen.</p>
-                
+
         <p>Unser Plenmum findet ab <strong>19:30 Uhr</strong> statt. Dort diskutieren wir aktuelle Entwicklungen, koordinieren neue Projekte und vieles mehr. Komme gerne einfach mal vorbei, wir freuen uns!</p>
       </div>
     </div>
     <div class="4u 12u(3)">
       <div class="box">
         <h3>Nächstes Treffen</h3>
-        <p>Unser Treffen findet am <strong><span id="next_meet_date">zweiten Montag im Monat</span></strong> um <strong>19:00</strong> Uhr statt.</p>
+        <p>Unser nächstes Treffen findet am <strong><span id="next_meet_date">zweiten Montag im Monat</span></strong> um <strong>19:30</strong> Uhr statt.</p>
       </div>
 
       <div id="map" class="box" style="height: 40em;"></div>
@@ -87,14 +87,32 @@ layout:
 
   <script>
       moment.locale('de');
-      var nextDate;
-      if (moment().isSame(moment().weekday(0), 'day'))
-          nextDate = moment().weekday(0);
-      else
-          nextDate = moment().weekday(7);
 
-      // FIXME
-      //$('#next_meet_date').text(nextDate.format('D. MMMM'));
+      function getSecondMonday(startDate) {
+        // calc date which is the start of isoweek for the month
+        var startOfMonth = moment(startDate).utc().startOf('month').startOf('isoweek');
+        // add 3 weeks for second monday
+        var nextDate = moment(startDate).utc().startOf('month').startOf('isoweek').add(2, 'weeks');
+        // if the month from startOfMonth isn't in the previous month (Monday on the 1.), substract one week
+        if (nextDate.month() == startOfMonth.month()) {
+          nextDate = nextDate.subtract(1, 'weeks');
+        }
+        return nextDate;
+      }
+
+      function getNextSecondMonday(startDate) {
+        var nextDate = getSecondMonday(startDate);
+        // if date is in the past, get next month
+        if (nextDate.date() < startDate.date()) {
+          nextDate = getSecondMonday(startDate.add(1, 'M'));
+        }
+        return nextDate;
+      }
+      
+      var currentDate = moment().utc();
+      var nextDate = getNextSecondMonday(currentDate);
+
+      $('#next_meet_date').text(nextDate.format('DD. MMMM YYYY'));
   </script>
 
   {% include footer.html %}
