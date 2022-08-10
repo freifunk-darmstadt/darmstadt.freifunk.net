@@ -10,6 +10,8 @@ Wir könnten wieder Eure Unterstützung gebrauchen.
 Eine dreistellige Anzahl von Routern wartet darauf geflashed zu werden.
 Daher wollen wir uns am Sonntag, den 28. August um 11:00 Uhr treffen, um diese Geräte mit der Firmware von Freifunk Darmstadt zu versorgen.
 
+<!--*-->
+
 Ziel ist der Einsatz in einer neuen Flüchtlingsunterkunft.
 
 Abweichend zu den bisherigen Geräten wird zum Flashen ein "Cisco" RJ45 Konsolenkabel benötigt. Wenn ihr ein solches zu Hause habt, bringt es gerne mit. Für alle anderen haben wir Kabel vor Ort. 
