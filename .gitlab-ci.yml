@@ -11,7 +11,7 @@ build:
   tags:
     - darmstadt
   stage: build
-  image: jekyll/jekyll:latest
+  image: jekyll/jekyll:4.2.0
   script:
     - bundle update || true
     - rake build
