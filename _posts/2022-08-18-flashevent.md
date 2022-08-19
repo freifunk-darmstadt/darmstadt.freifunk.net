@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Einladung: Flashparty am 28.08.2022"
-date: 2022-08-03 00:00:00
+date: 2022-08-18 00:00:00
 categories: community
 ---
 
