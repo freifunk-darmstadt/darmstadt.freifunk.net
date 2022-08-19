@@ -1,5 +1,5 @@
-source 'https://rubygems.org' do
-  gem 'jekyll'
-  gem 'html-proofer'
-  gem 'minitest'
-end
+source 'https://rubygems.org'
+
+gem 'jekyll'
+gem 'html-proofer'
+gem 'minitest'
