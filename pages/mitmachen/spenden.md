@@ -41,29 +41,4 @@ Durch [WeCanHelp](https://www.wecanhelp.de/464293002/shopsearch) kannst du uns m
 Besuche dazu einfach den jeweiligen Shop über den nebenstehenden Button und tätige wie gewohnt deinen Einkauf. Es fallen dabei keine Extrakosten an, 
 wir erhalten lediglich eine Provision, welche über sog. [Affiliate](https://de.wikipedia.org/wiki/Affiliate-Marketing)-Links generiert wird.
 
-## Spendenformular
-
-Das Spenden ist am einfachsten über unseren Partner [betterplace.org](https://www.betterplace.org/de/projects/27613-freifunk-darmstadt) möglich, der für uns die Abwicklung diverser Zahlungsmöglichkeiten bereistellt und Spendenbescheinigungen ausstellt.
-
-<script type="text/javascript">
-  /* Configure at https://www.betterplace.org/de/projects/27613-freifunk-darmstadt/manage/iframe_donation_form */
-  var _bp_iframe        = _bp_iframe || {};
-  _bp_iframe.project_id = 27613; /* REQUIRED */
-  _bp_iframe.lang       = 'de'; /* Language of the form */
-  /* Remove "//" for further customization but *only* if you really need to! */
-  // _bp_iframe.width = 600; /* Custom iframe-tag-width, integer, minimum 450px */
-  _bp_iframe.color = 'DC0067'; /* Button and banderole color, hex without "#" */
-  // _bp_iframe.background_color = 'fff'; /* Background-color, hex without "#" */
-  _bp_iframe.default_amount = 25; /* Donation-amount, integer 1-99 */
-  _bp_iframe.default_data_transfer_accepted = false; /* true (default), false */
-   _bp_iframe.recurring_interval = 'single'; /* Interval for recurring donations, string out of ["single", "monthly", "quarter_yearly", "half_yearly", "yearly"] */
-  (function() {
-    var bp = document.createElement('script'); bp.type = 'text/javascript'; bp.async = true;
-    bp.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'asset1.betterplace.org/assets/load_donation_iframe.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bp, s);
-  })();
-</script>
-<div id="betterplace_donation_iframe" style="text-align:center;background: transparent url('https://www.betterplace.org/assets/new_spinner.gif') 275px 20px no-repeat;"><strong><a href="https://www.betterplace.org/de/projects/27613-freifunk-darmstadt/donations/new">Jetzt Spenden für „Freifunk Darmstadt“ bei unserem Partner betterplace.org</a></strong></div>
-
-
 *Vielen Dank für die Unterstützung!*
