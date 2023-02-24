@@ -25,7 +25,7 @@ Der primäre Raumname ist #ffda. Ein Webchat ohne Anmeldung steht unter [chat.da
 
 ## Matrix
 
-Um im Matrix Netzwerk zu Chatten benötigst du einen Account auf einem Matrix Homeserver. Der volle Raumname lautet #ffda:hackint.org
+Um im Matrix Netzwerk zu Chatten benötigst du einen Account auf einem Matrix Homeserver. Der volle Raumname lautet [#ffda:hackint.org](https://matrix.to/#/#ffda:hackint.org)
 
 Nachfolgend haben wir eine Liste an möglichen Homeservern zusammengestellt. Eine umfangreichere Auflistung ist auf [joinmatrix.org/servers](https://joinmatrix.org/servers) verfügbar.
 
