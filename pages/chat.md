@@ -11,7 +11,7 @@ Wir tauschen uns rege über unseren Chat aus. Hier sind langjährige Freifunker 
 
 Unser Chat ist im IRC und auch aus dem Matrix-Netzwerk erreichbar.
 
-Den Chat kannst du in deinem IRC-Client hinzufügen oder unseren Webchat ohne Anmeldung nutzen. Allerdings erhälst du Nachrichten nur für die Dauer deiner Verbindung mit dem IRC Server.
+Den Chat kannst du in deinem IRC-Client hinzufügen oder unseren Webchat ohne Anmeldung nutzen. Allerdings erhältst du Nachrichten nur für die Dauer deiner Verbindung mit dem IRC Server.
 
 Möchtest du Nachrichten erhalten auch wenn du Offline bist oder auch am Handy / Tablet mitschreiben, so ist der Chat über Matrix für dich am besten geeignet.
 

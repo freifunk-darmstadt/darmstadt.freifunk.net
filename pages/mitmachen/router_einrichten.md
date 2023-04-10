@@ -26,7 +26,7 @@ Für einen AVM Router/Repeater findest du die nötigen Schritte [hier](https://f
 
 ### Konfigurationsmodus
 
-Dein Router sollte nun in den Konfigurationsmodus starten. Du erhälst erneut IP-Adresse per DHCP, dein Freifunk-Router ist nun unter [http://192.168.1.1](http://192.168.1.1) in deinem Browser erreichbar.
+Dein Router sollte nun in den Konfigurationsmodus starten. Du erhältst erneut IP-Adresse per DHCP, dein Freifunk-Router ist nun unter [http://192.168.1.1](http://192.168.1.1) in deinem Browser erreichbar.
 
 ### Den Router konfigurieren
 
