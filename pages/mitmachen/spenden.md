@@ -11,20 +11,19 @@ Freifunk Darmstadt ist ein Projekt des gemeinnützigen [Chaos Computer Club Darm
 Unsere Freifunknetz wächst dank der intensiven Unterstützung durch freiwillige Knotenbetreiber seit Jahren. Dies erfolgt ausschließlich auf Basis freiwilliger Unterstützung vieler Menschen.
 
 ## Überweisung für den Betrieb an Freie Netze Südhessen e.V.
-Solltest Du Dich auch finanziell regelmäßigen oder einmaligen Spende zu unterstützenmöchtest, freuen wir uns über eine Spende an die Freie Netze Südhessen e.V.
-Am einfachsten kannst Du uns Deine Spende direkt per Dauerauftrag oder Überweisung an das Bankkonto des Freie Netze Südhessen e.V. vornehmen:
+Solltest Du Dich auch finanziell regelmäßigen oder einmaligen Spende zu unterstützenmöchtest, freuen wir uns über eine Spende an den Chaos Computer Club Darmstadt e.V., mit dem Betreff Freifunk.
+Am einfachsten kannst Du uns Deine Spende direkt per Dauerauftrag oder Überweisung an das nachfolgende Bankkonto vornehmen:
 
 <blockquote>
-  Freie Netze Südhessen e.V.<br/>
-  DE68 5089 0000 0060 3774 05<br/>
-  BIC: GENODEF1VBD<br/>
-  Volksbank Darmstadt - Südhessen eG
+  CCC Darmstadt e.V.<br/>
+  IBAN: DE96 5085 0150 0000 7118 53<br/>
+  BIC: HELADEF1DAS<br/>
+  Stadt- und Kreis-Sparkasse Darmstadt
 </blockquote>
 
 Spenden sollten im Verwendungszweck den Hinweis enthalten, dass es sich um eine Spende handelt.
 
 Freifunk Darmstadt ist und bleibt kostenfrei und agiert ausschließlich auf Basis der freiwilligen Unterstützung. Durch die Nutzung entsteht für niemanden eine Zahlungsverpflichtung.
-Für die Spende an die Freie Netze Südhessen e.V. ist keine Austellung einer Spendenquittung möglich, da dem Verein die Gemeinnützigkeit fehlt.
 
 Solltet Ihr eine Spendenquittung benötigen, sprecht uns bitte direkt an.
 
