@@ -46,7 +46,7 @@ layout:
       <div class="box" id="treffen">
         <h3>Treffen</h3>
         <p>
-          Auf Grund der aktuellen Situation haben wir Beschlossen, unser Treffen <strong>am zweiten Montag im Monat</strong> bis auf weiteres ausschließlich virtuell stattfinden zu lassen.
+          Auf Grund der aktuellen Situation haben wir Beschlossen, unser Treffen <strong>am ersten Montag im Monat</strong> bis auf weiteres ausschließlich virtuell stattfinden zu lassen.
         </p>
         <p>
           Das Treffen findet im Raum <a href="https://meet.ffmuc.net/FreifunkDarmstadtPlenum">FreifunkDarmstadtPlenum</a> auf dem Jitsi Meet Server von Freifunk München statt. <br>
@@ -88,11 +88,11 @@ layout:
   <script>
       moment.locale('de');
 
-      function getSecondMonday(startDate) {
+      function getFirstMonday(startDate) {
         // calc date which is the start of isoweek for the month
         var startOfMonth = moment(startDate).utc().startOf('month').startOf('isoweek');
-        // add 3 weeks for second monday
-        var nextDate = moment(startDate).utc().startOf('month').startOf('isoweek').add(2, 'weeks');
+        // add 1 weeks for first monday
+        var nextDate = moment(startDate).utc().startOf('month').startOf('isoweek').add(1, 'weeks');
         // if the month from startOfMonth isn't in the previous month (Monday on the 1.), substract one week
         if (nextDate.month() == startOfMonth.month()) {
           nextDate = nextDate.subtract(1, 'weeks');
@@ -100,17 +100,17 @@ layout:
         return nextDate;
       }
 
-      function getNextSecondMonday(startDate) {
-        var nextDate = getSecondMonday(startDate);
+      function getNextFirstMonday(startDate) {
+        var nextDate = getFirstMonday(startDate);
         // if date is in the past, get next month
         if (nextDate.date() < startDate.date()) {
-          nextDate = getSecondMonday(startDate.add(1, 'M'));
+          nextDate = getFirstMonday(startDate.add(1, 'M'));
         }
         return nextDate;
       }
       
       var currentDate = moment().utc();
-      var nextDate = getNextSecondMonday(currentDate);
+      var nextDate = getNextFirstMonday(currentDate);
 
       $('#next_meet_date').text(nextDate.format('DD. MMMM YYYY'));
   </script>
