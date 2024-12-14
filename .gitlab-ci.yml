@@ -9,7 +9,7 @@ stages:
 
 build:
   tags:
-    - darmstadt
+    - as8365
   stage: build
   image: jekyll/jekyll:4.2.0
   script:
@@ -30,7 +30,7 @@ test:
 
 publish:
   tags:
-    - darmstadt
+    - as8365
   stage: publish
   image: curlimages/curl:latest
   rules:
