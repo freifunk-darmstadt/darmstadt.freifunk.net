@@ -6,7 +6,7 @@ categories: community
 ---
 
 Die Darmstädter Freifunker Alex und David waren zu Gast bei Leon von Radio Darmstadt zur Aufzeichnung
-einer [radio.exe](https://www.radiodarmstadt.de/sendungen/unterhaltungsredaktion/radioexe.html) Sendung.
+einer [radio.exe](https://radiodarmstadt.de/sendereihe/radio-exe/) Sendung.
 
 <!--*-->
 
@@ -15,6 +15,6 @@ Dabei konnten wir natürlich helfen und der Knoten ist auch schon in Betrieb.
 
 Im Zuge des Router-Tauschs wurden wir auch zur Aufzeichnung einer radio.exe Sendung eingeladen. Dem sind wir natürlich gerne gefolgt.
 
-Die Sendung könnt ihr euch hier anhören: [audio.leon-ebersmann.de/podcast/radio-darmstadt-radioexe-freifunk-darmstadt/](https://audio.leon-ebersmann.de/podcast/radio-darmstadt-radioexe-freifunk-darmstadt/)
+Die Sendung könnt ihr euch hier anhören: [podcast.radiodarmstadt.de/podcast/radio-darmstadt-radioexe-freifunk-darmstadt/](https://podcast.radiodarmstadt.de/podcast/radio-darmstadt-radioexe-freifunk-darmstadt/)
 
 (Technik News von 01:10 bis 08:35)

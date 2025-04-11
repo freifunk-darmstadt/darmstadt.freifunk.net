@@ -39,7 +39,7 @@ Nachfolgend haben wir eine Liste an möglichen Homeservern zusammengestellt. Ein
  - [Universität Twente](https://chat.utwente.io/#/)
  - [asra.gr](https://element.asra.gr)
  - [tchncs.de](https://tchncs.de/matrix)
- - [matrix.im](https://element.matrix.im)
+ - [matrix.im](https://.matrix.im)
 
 Weitere Informationen zur Verwendung von Matrix findest du auf [joinmatrix.org](https://joinmatrix.org/).
 
