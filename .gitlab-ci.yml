@@ -21,7 +21,7 @@ build:
 
 test:
   tags:
-    - darmstadt
+    - as8365
   stage: test
   image: 18fgsa/html-proofer:gitlab-ci
   allow_failure: true
