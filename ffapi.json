@@ -12,7 +12,8 @@
     "geoCode": {
       "lat": 49.87299,
       "lon": 8.650015
-    }
+    },
+    "state": "DE-HE"
   },
   "contact": {
     "email": "info@darmstadt.freifunk.net",
