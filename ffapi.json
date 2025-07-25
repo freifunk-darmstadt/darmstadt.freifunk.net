@@ -1,23 +1,28 @@
 {
   "name": "Freifunk Darmstadt",
-  "url": "http://darmstadt.freifunk.net",
+  "url": "https://darmstadt.freifunk.net",
   "location": {
     "city": "Darmstadt",
     "country": "DE",
-    "lat": 49.87299,
-    "lon": 8.650015,
     "address": {
-      "Name": "W17",
-      "Street": "Wilhelminenstraße 17",
-      "Zipcode": "64283"
-    }
+      "name": "W17",
+      "street": "Wilhelminenstraße 17",
+      "zipcode": "64283"
+    },
+    "geoCode": {
+      "lat": 49.87299,
+      "lon": 8.650015
+    },
+    "state": "DE-HE"
   },
   "contact": {
     "email": "info@darmstadt.freifunk.net",
     "phone": "+49 06151 6294552",
     "irc": "irc://irc.hackint.org/ffda",
-    "ml": "http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
-    "twitter": "@freifunkda"
+    "ml": "https://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
+    "twitter": "@freifunkda",
+    "matrix": "https://matrix.to/#/#ffda:hackint.org",
+    "mastodon": "https://chaos.social/@ffda"
   },
   "state": {
     "lastchange": "2018-04-10T15:22:45+00:00",
@@ -94,13 +99,13 @@
       "street": "Wilhelminenstraße 17",
       "zip": "64283",
       "city": "Darmstadt",
-      "url": "http://www.chaos-darmstadt.de",
+      "url": "https://www.chaos-darmstadt.de",
       "email": "info@chaos-darmstadt.de"
     },
     "donations": {
       "bankaccount": {
-        "IBAN": "DE47 5089 0000 0064 3445 01",
-        "BIC": "GENODEF1VBD",
+        "IBAN": "DE96 5085 0150 0000 7118 53",
+        "BIC": "HELADEF1DAS",
         "usage": "Freifunk"
       },
       "campaigns": [
@@ -118,7 +123,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon-ffda",
-      "url": "http://firmware.darmstadt.freifunk.net",
+      "url": "https://firmware.darmstadt.freifunk.net",
       "docs": "https://forum.darmstadt.freifunk.net/c/technik/firmware",
       "vpnaccess": "mail"
     },
@@ -160,5 +165,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.14"
+  "api": "0.5.3"
 }
