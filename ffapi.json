@@ -4,12 +4,14 @@
   "location": {
     "city": "Darmstadt",
     "country": "DE",
-    "lat": 49.87299,
-    "lon": 8.650015,
     "address": {
-      "Name": "W17",
-      "Street": "Wilhelminenstraße 17",
-      "Zipcode": "64283"
+      "name": "W17",
+      "street": "Wilhelminenstraße 17",
+      "zipcode": "64283"
+    },
+    "geoCode": {
+      "lat": 49.87299,
+      "lon": 8.650015
     }
   },
   "contact": {
@@ -160,5 +162,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.14"
+  "api": "0.5.3"
 }
