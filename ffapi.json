@@ -1,6 +1,6 @@
 {
   "name": "Freifunk Darmstadt",
-  "url": "http://darmstadt.freifunk.net",
+  "url": "https://darmstadt.freifunk.net",
   "location": {
     "city": "Darmstadt",
     "country": "DE",
@@ -19,7 +19,7 @@
     "email": "info@darmstadt.freifunk.net",
     "phone": "+49 06151 6294552",
     "irc": "irc://irc.hackint.org/ffda",
-    "ml": "http://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
+    "ml": "https://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
     "twitter": "@freifunkda",
     "matrix": "https://matrix.to/#/#ffda:hackint.org"
   },
@@ -98,7 +98,7 @@
       "street": "Wilhelminenstraße 17",
       "zip": "64283",
       "city": "Darmstadt",
-      "url": "http://www.chaos-darmstadt.de",
+      "url": "https://www.chaos-darmstadt.de",
       "email": "info@chaos-darmstadt.de"
     },
     "donations": {
@@ -122,7 +122,7 @@
   "techDetails": {
     "firmware": {
       "name": "gluon-ffda",
-      "url": "http://firmware.darmstadt.freifunk.net",
+      "url": "https://firmware.darmstadt.freifunk.net",
       "docs": "https://forum.darmstadt.freifunk.net/c/technik/firmware",
       "vpnaccess": "mail"
     },
