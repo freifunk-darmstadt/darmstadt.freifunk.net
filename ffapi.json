@@ -5,13 +5,13 @@
     "city": "Darmstadt",
     "country": "DE",
     "address": {
-      "name": "W17",
+      "name": "CCC Darmstadt",
       "street": "Wilhelminenstraße 17",
       "zipcode": "64283"
     },
     "geoCode": {
-      "lat": 49.87299,
-      "lon": 8.650015
+      "lat": 49.8708409,
+      "lon": 8.6511275
     },
     "state": "DE-HE"
   },
