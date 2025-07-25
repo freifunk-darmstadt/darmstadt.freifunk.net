@@ -21,7 +21,8 @@
     "irc": "irc://irc.hackint.org/ffda",
     "ml": "https://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
     "twitter": "@freifunkda",
-    "matrix": "https://matrix.to/#/#ffda:hackint.org"
+    "matrix": "https://matrix.to/#/#ffda:hackint.org",
+    "mastodon": "https://chaos.social/@ffda"
   },
   "state": {
     "lastchange": "2018-04-10T15:22:45+00:00",
