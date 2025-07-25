@@ -103,8 +103,8 @@
     },
     "donations": {
       "bankaccount": {
-        "IBAN": "DE47 5089 0000 0064 3445 01",
-        "BIC": "GENODEF1VBD",
+        "IBAN": "DE96 5085 0150 0000 7118 53",
+        "BIC": "HELADEF1DAS",
         "usage": "Freifunk"
       },
       "campaigns": [
