@@ -17,10 +17,9 @@
   },
   "contact": {
     "email": "info@darmstadt.freifunk.net",
-    "phone": "+49 06151 6294552",
-    "irc": "irc://irc.hackint.org/ffda",
+    "phone": "+49 6151 5200088",
+    "irc": "ircs://irc.hackint.org/ffda",
     "ml": "https://lists.freifunk.net/mailman/listinfo/darmstadt-freifunk.net",
-    "twitter": "@freifunkda",
     "matrix": "https://matrix.to/#/#ffda:hackint.org",
     "mastodon": "https://chaos.social/@ffda"
   },
